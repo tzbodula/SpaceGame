@@ -32,9 +32,9 @@ The game (as of 2/10/22) has 2 rooms:
 ##  Enemies
 
 The game has 3 main enemy types:
-    - `_enemy1` : <"info about enemy1">
-    - `_enemy2` : <"info about enemy2">
-    - `_enemy3` : <"info about enemy3">
+- `_enemy1` : <"info about enemy1">
+- `_enemy2` : <"info about enemy2">
+- `_enemy3` : <"info about enemy3">
 
 It also includes 1 boss enemy:
-    - `_enemyHugeBoi` : <"info about enemyHugeBoi">
+- `_enemyHugeBoi` : <"info about enemyHugeBoi">
