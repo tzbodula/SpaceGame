@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"rm_shipInterior","path":"rooms/rm_shipInterior/rm_shipInterior.yy",},"order":1,},
     {"id":{"name":"obj_enemyHugeBoi","path":"objects/obj_enemyHugeBoi/obj_enemyHugeBoi.yy",},"order":4,},
+    {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":6,},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"order":3,},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":2,},
     {"id":{"name":"obj_playerShip","path":"objects/obj_playerShip/obj_playerShip.yy",},"order":0,},
