@@ -27,10 +27,15 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
-  "overriddenProperties": [],
+  "properties": [
+    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"warp_multiplier","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [
+    {"propertyId":{"name":"health_points","path":"objects/obj_enemy1/obj_enemy1.yy",},"objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"movement_speed","path":"objects/obj_enemy1/obj_enemy1.yy",},"objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
