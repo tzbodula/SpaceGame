@@ -40,6 +40,18 @@ function checkForInput()
 	{
 		vspeed += 2;
 	}
+	// Rotate left
+	if(playerControls.rotateLeft())
+	{
+		//	Update the image angle by rotation speed
+		image_angle += rspeed;
+	}
+	// Rotate right
+	if(playerControls.rotateRight())
+	{
+		//	Update the image angle by rotation speed
+		image_angle -= rspeed;
+	}
 	
 	
 	//	Check if player is NOT pressing keys to move
