@@ -6,6 +6,7 @@
 
 max_hsp = 20;	//	Max horizontal movement speed
 max_vsp = 16;	//	Max vertical movement speed
+rspeed = 5;	//	Rotational speed  
 
 // Define struct to store input controls
 playerControls = {
@@ -21,6 +22,10 @@ playerControls = {
 	down : function() {
 		return keyboard_check(ord("S"));		//	S key to move down
 	},	
-	rotateLeft : ord("Q"),								//	Q to rotate/turn left
-	rotateRight : ord("E")								//	E to rotate/turn right
+	rotateLeft : function() {
+		return keyboard_check(ord("Q"));		//	Q to rotate/turn left
+	},								
+	rotateRight : function() {
+		return keyboard_check(ord("E"));		//	E to rotate/turn right
+	}	
 };
