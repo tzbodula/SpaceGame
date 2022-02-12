@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-vspeed = 0
-hspeed = 0
+isCollision = false
+predeterminedX = random_range(0, room_width)
+predeterminedY = random_range(0, room_height)
