@@ -5,7 +5,7 @@ if (x < 0 or x > room_width or y > room_height or y < 0) {
 } 
 else {
 	if isCollision {
-		move_towards_point(predeterminedX, predeterminedY, movement_speed/2 * warp_multiplier)
+		move_towards_point(predeterminedX, predeterminedY, movement_speed * warp_multiplier)
 		if x == predeterminedX and y == predeterminedY
 		    speed = 0
 	} else {
