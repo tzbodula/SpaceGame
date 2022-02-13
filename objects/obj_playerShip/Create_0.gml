@@ -15,7 +15,14 @@ energy = 100;				//	Ship energy
 // Health, Shield, and power capacity (These will be upgradable)
 healthCapacity = health_points;
 shieldCapacity = shields;
-energyCapacity = energy; 
+energyCapacity = energy;
+
+// Time in seconds between automatically decrementing player ship energy while in combat
+energyUseInterval = 2; // This could be upgradable
+
+// Alarm for automatically using energy
+alarm[0] = room_speed*energyUseInterval;
+
 
 // Define struct to store input controls
 playerControls = {
