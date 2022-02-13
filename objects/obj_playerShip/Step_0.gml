@@ -21,33 +21,33 @@ function checkBounds()
 function checkForInput()
 {
 	// 	Leftward movement
-	if(playerControls.left())
+	if(playerControls.left() && canMove())
 	{
 		hspeed -= 2;
 	}
 	// 	Rightward movement
-	if(playerControls.right()) 
+	if(playerControls.right() && canMove()) 
 	{
 		hspeed += 2;
 	}
 	// 	Upward movement
-	if(playerControls.up()) 
+	if(playerControls.up() && canMove()) 
 	{
 		vspeed -= 2;
 	}
 	// 	Downward movement
-	if(playerControls.down()) 
+	if(playerControls.down() && canMove()) 
 	{
 		vspeed += 2;
 	}
 	// Rotate left
-	if(playerControls.rotateLeft())
+	if(playerControls.rotateLeft() && canMove())
 	{
 		//	Update the image angle by rotation speed
 		image_angle += rspeed;
 	}
 	// Rotate right
-	if(playerControls.rotateRight())
+	if(playerControls.rotateRight() && canMove())
 	{
 		//	Update the image angle by rotation speed
 		image_angle -= rspeed;
@@ -70,5 +70,6 @@ function checkForInput()
 	// Check player bounds
 	checkBounds();
 }
+
 
 checkForInput();
