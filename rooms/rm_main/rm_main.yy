@@ -14,6 +14,7 @@
   ],
   "layers": [
     {"instances":[
+<<<<<<< HEAD
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_playerShip","path":"objects/obj_playerShip/obj_playerShip.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":576.0,"resourceVersion":"1.0","name":"inst_7549AAC1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":928.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_5B1E54B4","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":928.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_78434A42","tags":[],"resourceType":"GMRInstance",},
@@ -27,12 +28,21 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":128.0,"resourceVersion":"1.0","name":"inst_72A0F1CA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":-6.0,"vspeed":0.0,"stretch":false,"animationFPS":60.0,"animationSpeedType":0,"userdefinedAnimFPS":true,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+=======
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_playerShip","path":"objects/obj_playerShip/obj_playerShip.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":576.0,"resourceVersion":"1.0","name":"inst_7549AAC1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":160.0,"resourceVersion":"1.0","name":"inst_622F1BD9","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy2Spawner","path":"objects/obj_enemy2Spawner/obj_enemy2Spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":320.0,"resourceVersion":"1.0","name":"inst_495B3BFD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemy3Spawner","path":"objects/obj_enemy3Spawner/obj_enemy3Spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":480.0,"resourceVersion":"1.0","name":"inst_17D2D80F","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"spriteId":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":-6.0,"vspeed":0.0,"stretch":false,"animationFPS":60.0,"animationSpeedType":0,"userdefinedAnimFPS":true,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+>>>>>>> 7f523b8f13b91d476662aeabbc7b48256a8e1177
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7549AAC1","path":"rooms/rm_main/rm_main.yy",},
+<<<<<<< HEAD
     {"name":"inst_5B1E54B4","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_78434A42","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_43B8D99","path":"rooms/rm_main/rm_main.yy",},
@@ -43,6 +53,11 @@
     {"name":"inst_61C26798","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_B1791E4","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_72A0F1CA","path":"rooms/rm_main/rm_main.yy",},
+=======
+    {"name":"inst_622F1BD9","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_495B3BFD","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_17D2D80F","path":"rooms/rm_main/rm_main.yy",},
+>>>>>>> 7f523b8f13b91d476662aeabbc7b48256a8e1177
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
