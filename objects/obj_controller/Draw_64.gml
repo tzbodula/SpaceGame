@@ -22,7 +22,11 @@ draw_healthbar(
 
 // Set text color for label
 draw_set_colour(c_black);
-draw_text(16, 82, "Health    " + string(obj_playerShip.health_points) + "/" + string(obj_playerShip.healthCapacity));
+draw_text(
+	16, 
+	82, 
+	"Health    " + string(obj_playerShip.health_points) + "/" + string(obj_playerShip.healthCapacity)
+	);
 
 // Draw energy bar and label
 draw_healthbar(
@@ -34,4 +38,17 @@ draw_healthbar(
 	c_black,c_orange,c_yellow,0,true,true);
 
 draw_set_colour(c_black);
-draw_text(pbarStartX+10, 26, "Energy    " + string(obj_playerShip.energy) + "/" + string(obj_playerShip.energyCapacity));
+draw_text(
+	pbarStartX+10, 
+	26, 
+	"Energy    " + string(obj_playerShip.energy) + "/" + string(obj_playerShip.energyCapacity)
+	);
+
+
+// Draw player's points(score)
+draw_set_colour(c_red);
+draw_text(
+	pbarStartX+10, 
+	82,
+	"Points:    " + string(obj_playerShip.points)
+	);
