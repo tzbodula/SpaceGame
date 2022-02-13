@@ -10,7 +10,7 @@ function checkBounds()
 {
 	// Check physical bounds (i.e. keep player in the game window / viewport)
 	x = clamp(x, sprite_xoffset * 1.5, room_width - sprite_xoffset*1.5);
-	y = clamp(y, sprite_yoffset * 1.5, room_height - sprite_yoffset*1.5);
+	y = clamp(y, sprite_yoffset * 3.2, room_height - sprite_yoffset*1.5);
 	
 	// Check numerical bounds 
 	vspeed = clamp(vspeed, -max_vsp, max_vsp);
