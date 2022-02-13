@@ -20,8 +20,12 @@ energyCapacity = energy;
 // Time in seconds between automatically decrementing player ship energy while in combat
 energyUseInterval = 2; // This could be upgradable
 
-// Alarm for automatically using energy
-alarm[0] = room_speed*energyUseInterval;
+
+// State variables/functions
+canMove = function() {
+			return energy > 0;		//	Player ship can only move if it has energy
+		};
+
 
 
 // Define struct to store input controls
@@ -45,3 +49,7 @@ playerControls = {
 		return keyboard_check(ord("E"));		//	E to rotate/turn right
 	}	
 };
+
+
+// Alarm for automatically using energy
+alarm[0] = room_speed*energyUseInterval;
