@@ -4,9 +4,12 @@
 *
 */
 
-max_hsp = 20;	//	Max horizontal movement speed
-max_vsp = 16;	//	Max vertical movement speed
-rspeed = 5;	//	Rotational speed  
+max_hsp = 20;				//	Max horizontal movement speed
+max_vsp = 16;				//	Max vertical movement speed
+rspeed = 5;					//	Rotational speed  
+health_points = 100;		//	Set player health
+points = 0;					//	Instance variable for score
+shields = 50;					//	Player shields
 
 // Define struct to store input controls
 playerControls = {
