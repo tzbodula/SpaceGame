@@ -10,5 +10,5 @@ hbarXEnd = hbarXStart + healthBarLen;		// Health and shield bar X end coordinate
 hbarYStart = 8;								// Health and shield bar base Y start coordinate
 hbarYEnd = 64;								// Health and shield bar base Y end coordinate
 
-pBarStartX = hbarXEnd + 15;					// Power bar starting X coordinate
-pBarEndX = pBarStartX + powerBarLen;		// Power bar ending X coordinate
+pbarStartX = hbarXEnd;						// Power bar starting X coordinate
+pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
