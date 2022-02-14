@@ -19,10 +19,8 @@
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":5,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":5,},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":3,},
-    {"id":{"name":"spr_testEnemy","path":"sprites/spr_testEnemy/spr_testEnemy.yy",},"order":7,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"scr_combat","path":"scripts/scr_combat/scr_combat.yy",},"order":0,},
-    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -37,7 +35,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_shipInterior","path":"rooms/rm_shipInterior/rm_shipInterior.yy",},},
   ],
   "Folders": [
