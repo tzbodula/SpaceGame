@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Change spawnInterval based on difficulty level
+difficulty_spawners()
+
 alarm[0] = spawnInterval
