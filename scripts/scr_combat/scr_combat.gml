@@ -16,7 +16,7 @@ function damageObj(obj, amount)
 				obj.shields = 0;
 				
 				// Subtract remaining damage from player health
-				obj.health_points -= diff;
+				obj.healthPoints -= diff;
 			}
 			else {
 				// Damage player shields
@@ -26,7 +26,7 @@ function damageObj(obj, amount)
 		// No shields remaining
 		else {
 			// Check if damage will kill player
-			if(obj.health_points - amount <= 0)
+			if(obj.healthPoints - amount <= 0)
 			{
 				// Destroy calling object
 				instance_destroy(self);
@@ -36,24 +36,24 @@ function damageObj(obj, amount)
 			}
 			else {
 				// Destroy calling object and increment player score
-				obj.points += self.health_points;
+				obj.points += self.healthPoints;
 				instance_destroy(self);
 				
 				// Decrement player health
-				obj.health_points -= amount;
+				obj.healthPoints -= amount;
 			}
 		}
 	}
 	// Not the player
 	else {
 		// Check if damage will destroy object
-		if(obj.health_points - amount <= 0)
+		if(obj.healthPoints - amount <= 0)
 		{
 			// Destroy object
 			instance_destroy(obj);
 		}
 		else {
-			obj.health_points -= amount;
+			obj.healthPoints -= amount;
 				
 		}
 			

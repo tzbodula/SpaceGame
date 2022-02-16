@@ -35,4 +35,6 @@ if i_d == global.name {
 			room_goto(rm_scoreBoard)
 		}
 	}
+	
+	scr_displayScores()
 }
