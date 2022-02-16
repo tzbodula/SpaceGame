@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_easy",
-    "path": "sprites/spr_easy/spr_easy.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -30,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_easy",
+  "name": "obj_introController",
   "tags": [],
   "resourceType": "GMObject",
 }
