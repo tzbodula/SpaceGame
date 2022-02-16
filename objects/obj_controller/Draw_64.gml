@@ -17,7 +17,7 @@ draw_healthbar(
 	hbarYStart + healthBarHeight + 5,
 	hbarXEnd,
 	hbarYEnd + healthBarHeight,
-	obj_playerShip.health_points,
+	obj_playerShip.healthPoints,
 	c_black,c_red,c_lime,0,true,true);
 
 // Set text color for label
@@ -25,7 +25,7 @@ draw_set_colour(c_black);
 draw_text(
 	16, 
 	82, 
-	"Health    " + string(obj_playerShip.health_points) + "/" + string(obj_playerShip.healthCapacity)
+	"Health    " + string(obj_playerShip.healthPoints) + "/" + string(obj_playerShip.healthCapacity)
 	);
 
 // Draw energy bar and label
@@ -34,7 +34,7 @@ draw_healthbar(
 	hbarYStart,
 	pbarEndX,
 	hbarYStart + healthBarHeight,
-	obj_playerShip.health_points,
+	obj_playerShip.healthPoints,
 	c_black,c_orange,c_yellow,0,true,true);
 
 draw_set_colour(c_black);
