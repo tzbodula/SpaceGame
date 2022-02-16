@@ -7,13 +7,13 @@
 max_hsp = 20;				//	Max horizontal movement speed
 max_vsp = 16;				//	Max vertical movement speed
 rspeed = 5;					//	Rotational speed  
-health_points = 100;		//	Set player health
+healthPoints = 100;		//	Set player health
 points = 0;					//	Instance variable for score
 shields = 50;				//	Player shields
 energy = 100;				//	Ship energy
 
 // Health, Shield, and power capacity (These will be upgradable)
-healthCapacity = health_points;
+healthCapacity = healthPoints;
 shieldCapacity = shields;
 energyCapacity = energy;
 
