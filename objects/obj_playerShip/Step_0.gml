@@ -24,30 +24,34 @@ function checkForInput()
 	if(playerControls.left() && canMove())
 	{
 		hspeed -= 2;
+		global.fuel -= 1;
 	}
 	// 	Rightward movement
 	if(playerControls.right() && canMove()) 
 	{
 		hspeed += 2;
+		global.fuel--;
 	}
 	// 	Upward movement
 	if(playerControls.up() && canMove()) 
 	{
 		vspeed -= 2;
+		global.fuel--;
 	}
 	// 	Downward movement
 	if(playerControls.down() && canMove()) 
 	{
 		vspeed += 2;
+		global.fuel--;
 	}
 	// Rotate left
-	if(playerControls.rotateLeft() && canMove())
+	if(playerControls.rotateLeft() && canRotate())
 	{
 		//	Update the image angle by rotation speed
 		image_angle += rspeed;
 	}
 	// Rotate right
-	if(playerControls.rotateRight() && canMove())
+	if(playerControls.rotateRight() && canRotate())
 	{
 		//	Update the image angle by rotation speed
 		image_angle -= rspeed;
