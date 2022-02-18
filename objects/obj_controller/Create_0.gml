@@ -15,14 +15,24 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 
 
 
-// Player variables
+/**
+===========================
+
+	Player variables
+
+===========================
+*/
+
+// Resource values
 global.healthPoints = 100;			//	Set player health
 global.points = 0;					//	Instance variable for score
 global.shields = 50;				//	Player shields
-global.fuel = 1000;				//	Ship fuel
+global.fuel = 1000;					//	Ship fuel
 global.energy = 100;				//	Ship energy
-global.smallAmmo = 100;			//	Ammo available for small cannon
+global.smallAmmo = 100;				//	Ammo available for small cannon
 global.bigAmmo = 10;				//	Ammo available for big cannon
+global.maxHsp = 10;					//	Max hspeed (upgradable; 3 tiers)
+global.maxVsp = 8;					//	Max vspeed (upgradable; 3 tiers)
 
 // Resource capacity values (These will be upgradable)
 global.healthCapacity = global.healthPoints;
@@ -33,4 +43,6 @@ global.smallAmmoCapacity = global.smallAmmo;
 global.bigAmmoCapacity = global.bigAmmo;
 
 // Timing intervals
-global.energyUseInterval = 0.5;	//	This could be upgradable
+global.energyUseInterval = 1;	//	Automatically use 1 energy per second
+global.smallShotInterval = 2;	//	2 shots per second for small cannon
+global.bigShotInterval = 0.3;	//	1 shot every 3 seconds for big cannon
