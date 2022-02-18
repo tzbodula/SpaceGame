@@ -57,6 +57,31 @@ function checkForInput()
 		image_angle -= rspeed;
 	}
 	
+	// Fire cannon
+	if(playerControls.fire() && (hasSmallAmmo() || hasBigAmmo()))
+	{
+		// Check current ammo type
+		switch(ammoType)
+		{
+			// Small ammo
+			case AmmoTypes.SMALL:
+				// Check if player has any small ammo and can fire
+				if(hasSmallAmmo() && canShootSmall)
+				{
+					// Update state
+					canShootSmall = false;
+					
+					// Spawn bullet object
+					instance_create_layer(x,y,"instances",obj_bullet);
+					
+					// Alarm for small cannon fire rate
+					alarm[1] = room_speed * global.smallShotInterval;	
+				}
+		}
+		
+	}
+	
+	
 	
 	//	Check if player is NOT pressing keys to move
 	if(!playerControls.left() && !playerControls.right())
