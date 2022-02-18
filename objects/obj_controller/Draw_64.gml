@@ -59,14 +59,12 @@ if(global.healthPoints > (global.healthCapacity / 2))
 else {
 	draw_set_colour(c_red);
 }
-
-
-
 draw_text(
 	16, 
 	82, 
 	"Health    " + string(global.healthPoints) + "/" + string(global.healthCapacity)
 	);
+
 
 // Draw energy bar and label
 draw_healthbar(
@@ -95,7 +93,6 @@ draw_text(
 	);
 
 
-
 // Draw player's points(score)
 draw_set_colour(c_red);
 draw_text(
@@ -103,3 +100,8 @@ draw_text(
 	82,
 	"Points:    " + string(global.points)
 	);
+	
+// Draw ammo remaining 
+draw_set_colour(c_silver);
+draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
+draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
