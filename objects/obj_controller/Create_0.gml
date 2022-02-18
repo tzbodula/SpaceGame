@@ -44,5 +44,5 @@ global.bigAmmoCapacity = global.bigAmmo;
 
 // Timing intervals
 global.energyUseInterval = 1;	//	Automatically use 1 energy per second
-global.smallShotInterval = 2;	//	2 shots per second for small cannon
-global.bigShotInterval = 0.3;	//	1 shot every 3 seconds for big cannon
+global.smallShotInterval = 0.5;	//	2 shots per second for small cannon
+global.bigShotInterval = 3;	//	1 shot every 3 seconds for big cannon
