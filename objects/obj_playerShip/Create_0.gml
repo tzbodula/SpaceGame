@@ -3,20 +3,29 @@
 * This script runs whenever an instance of obj_playerShip is created
 *
 */
-
-max_hsp = 20;				//	Max horizontal movement speed
-max_vsp = 16;				//	Max vertical movement speed
 rspeed = 5;					//	Rotational speed  
 
 
 // State variables/functions
 canMove = function() {
-			return global.fuel > 0;		//	Player ship can only move if it has energy
+			return global.fuel > 0;			//	Player ship can only move if it has fuel
 		};
 
 canRotate = function() {
-			return global.energy > 0;
+			return global.energy > 0;		//	Player ship can only rotate if it has energy
 		};
+		
+hasSmallAmmo = function() {
+			return global.smallAmmo > 0;	//	Check if player has enough small ammo
+		}
+		
+hasBigAmmo = function() {
+			return global.bigAmmo > 0;		//	Check if player has enough big ammo
+		}
+
+
+canShootSmall = true;						//	State to control small ammo fire rate
+canShootBig = true;							//	State to control big ammo fire rate
 
 // Define struct to store input controls
 playerControls = {
