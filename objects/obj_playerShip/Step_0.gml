@@ -13,8 +13,8 @@ function checkBounds()
 	y = clamp(y, sprite_yoffset * 3.2, room_height - sprite_yoffset*1.5);
 	
 	// Check numerical bounds 
-	vspeed = clamp(vspeed, -max_vsp, max_vsp);
-	hspeed = clamp(hspeed, -max_hsp, max_hsp);
+	vspeed = clamp(vspeed, -global.maxVsp, global.maxVsp);
+	hspeed = clamp(hspeed, -global.maxHsp, global.maxHsp);
 }
 
 // Check for and handle input from the player
