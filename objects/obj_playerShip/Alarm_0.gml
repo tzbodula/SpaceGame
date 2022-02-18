@@ -1,3 +1,4 @@
+/// @description Automatically use energy
 /*
 *
 * This alarm is triggered every time the player's ship energy should
