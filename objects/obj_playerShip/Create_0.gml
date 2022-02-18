@@ -27,6 +27,15 @@ hasBigAmmo = function() {
 canShootSmall = true;						//	State to control small ammo fire rate
 canShootBig = true;							//	State to control big ammo fire rate
 
+// Enumerator for ammo types
+enum AmmoTypes {
+		SMALL,
+		BIG
+	};
+	
+// Set default ammo type
+ammoType = AmmoTypes.SMALL;
+
 // Define struct to store input controls
 playerControls = {
 	left : function() {
@@ -53,5 +62,10 @@ playerControls = {
 };
 
 
-// Alarms for automatically using energy and fuel
+// Alarm for automatically using energy
 alarm[0] = room_speed*global.energyUseInterval;
+
+
+
+// Alarm for big cannon fire rate
+//alarm[2] = room_speed * global.bigShotInterval;
