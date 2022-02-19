@@ -1,3 +1,4 @@
+
 // Draw shield bar and label
 draw_healthbar(
 	hbarXStart,
@@ -54,3 +55,10 @@ draw_text(
 	82,
 	"Points:    " + string(obj_playerShip.points)
 	);
+	
+draw_set_colour(c_red);
+draw_text(
+	pbarStartX+10, 
+	100,
+	"Enemies in the area:    " + string(instance_number(obj_enemy1))
+	)
