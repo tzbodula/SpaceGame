@@ -1,3 +1,4 @@
+difficulty_player()
 // Initialize global player resources
 score = 0;
 
@@ -12,3 +13,4 @@ hbarYEnd = 64;								// Health and shield bar base Y end coordinate
 
 pbarStartX = hbarXEnd;						// Power bar starting X coordinate
 pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
+

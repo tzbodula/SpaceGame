@@ -1,4 +1,5 @@
 // Draw shield bar and label
+
 draw_healthbar(
 	hbarXStart,
 	hbarYStart,
@@ -9,7 +10,7 @@ draw_healthbar(
 
 // Set text color for label
 draw_set_colour(c_black);
-draw_text(16, 24, "Shields    " + string(obj_playerShip.shields) + "/" + string(obj_playerShip.shieldCapacity));
+draw_text(16, 24, "Shields    " + string(obj_playerShip.shields) + "/" + string(global.shieldCapacity));
 
 // Draw healthbar and label
 draw_healthbar(
@@ -25,7 +26,7 @@ draw_set_colour(c_black);
 draw_text(
 	16, 
 	82, 
-	"Health    " + string(obj_playerShip.healthPoints) + "/" + string(obj_playerShip.healthCapacity)
+	"Health    " + string(obj_playerShip.healthPoints) + "/" + string(global.healthCapacity)
 	);
 
 // Draw energy bar and label
@@ -41,7 +42,7 @@ draw_set_colour(c_black);
 draw_text(
 	pbarStartX+10, 
 	26, 
-	"Energy    " + string(obj_playerShip.energy) + "/" + string(obj_playerShip.energyCapacity)
+	"Energy    " + string(obj_playerShip.energy) + "/" + string(global.energyCapacity)
 	);
 
 

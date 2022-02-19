@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "difficulty",
+  "name": "difficulty_player",
   "tags": [],
   "resourceType": "GMScript",
 }

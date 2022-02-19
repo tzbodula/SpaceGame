@@ -7,18 +7,24 @@
 max_hsp = 20;				//	Max horizontal movement speed
 max_vsp = 16;				//	Max vertical movement speed
 rspeed = 5;					//	Rotational speed  
-healthPoints = 100;		//	Set player health
+healthPoints = 100;			//	Set player health
 points = 0;					//	Instance variable for score
 shields = 50;				//	Player shields
 energy = 100;				//	Ship energy
 
+
+
 // Health, Shield, and power capacity (These will be upgradable)
-healthCapacity = healthPoints;
-shieldCapacity = shields;
-energyCapacity = energy;
+global.healthCapacity = healthPoints;
+global.shieldCapacity = shields;
+global.energyCapacity = energy;
+
+difficulty_player()
+
 
 // Time in seconds between automatically decrementing player ship energy while in combat
 energyUseInterval = 2; // This could be upgradable
+
 
 
 // State variables/functions
