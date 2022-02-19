@@ -1,4 +1,4 @@
 // Change spawnInterval based on difficulty level
-difficulty_spawners()
+// difficulty.player_difficulty()
 
 alarm[0] = spawnInterval
