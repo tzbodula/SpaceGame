@@ -1,6 +1,7 @@
-// Script for implementing difficulty levels for enemy objects
+// Script for implementing difficulty levels for various objects
 
-function difficulty(){
+// Player difficulty stats adjustment
+function player_difficulty(){
 	switch(global.difficulty) {
 		case "easy":
 			movement_speed *= 0.5
@@ -15,4 +16,20 @@ function difficulty(){
 			health_points *= 1.5
 			break
 	}
+}
+
+// Enemy spawner difficulty stats adjustment 
+function spawner_difficulty() {
+	switch(global.difficulty) {
+		case "easy":
+			spawnInterval *= 0.5
+			break
+		case "medium":
+			spawnInterval *= 1
+			break
+		case "hard":
+			spawnInterval *= 1.5
+			break
+	}
+	
 }
