@@ -17,7 +17,7 @@ else {
 	draw_set_colour(c_red);
 }
 
-
+draw_set_font(brokenconsole);
 draw_text(16, 24, "Shields    " + string(global.shields) + "/" + string(global.shieldCapacity));
 
 
@@ -38,8 +38,6 @@ if(global.fuel > (global.fuelCapacity / 2))
 else {
 	draw_set_colour(c_red);
 }
-
-
 
 draw_text(hbarXEnd/2 + 16, 24, "Fuel    " + string(global.fuel) + "/" + string(global.fuelCapacity));
 
@@ -108,3 +106,21 @@ draw_text(
 	100,
 	"Enemies in the area:    " + string(instance_number(obj_enemy1))
 	)
+
+// Check selected ammo type
+if(obj_playerShip.ammoType == AmmoTypes.SMALL)
+{
+	// Highlight selected ammo type
+	draw_set_colour(c_green);
+	draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
+	draw_set_colour(c_silver);
+	draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
+}
+else {
+	// Draw ammo remaining 
+	draw_set_colour(c_silver);
+	draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
+	draw_set_colour(c_green);
+	draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
+}
+
