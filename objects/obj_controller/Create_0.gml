@@ -1,14 +1,6 @@
 // Initialize global player resources
 score = 0;
 
-
-/**
-===========================
-
-	GUI variables
-
-===========================
-*/
 healthBarLen = 500;				//	Health and shield bar length (in pixels)
 healthBarHeight = 56;			//	Health and shield bar height
 powerBarLen = 300;				//	Power bar length (in pixels)
@@ -29,14 +21,14 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 	Player variables
 
 ===========================
-**/
+*/
 
 // Resource values
 global.healthPoints = 100;			//	Set player health
 global.points = 0;					//	Instance variable for score
 global.shields = 50;				//	Player shields
-global.fuel = 1000;					//	Ship fuel
-global.energy = 100;				//	Ship energy
+global.fuel = 100000;					//	Ship fuel
+global.energy = 10000;				//	Ship energy
 global.smallAmmo = 100;				//	Ammo available for small cannon
 global.bigAmmo = 10;				//	Ammo available for big cannon
 global.maxHsp = 10;					//	Max hspeed (upgradable; 3 tiers)
@@ -51,6 +43,13 @@ global.smallAmmoCapacity = global.smallAmmo;
 global.bigAmmoCapacity = global.bigAmmo;
 
 // Timing intervals
-global.energyUseInterval = 1;		//	Automatically use 1 energy per second
-global.smallShotInterval = 0.33;	//	delay (in seconds) for small cannon
-global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
+global.energyUseInterval = 1;	//	Automatically use 1 energy per second
+global.smallShotInterval = 0.5;	//	2 shots per second for small cannon
+global.bigShotInterval = 3;	//	1 shot every 3 seconds for big cannon
+
+// Wave mechanics (affects enemy spawn rate and enemy damage)
+global.waveNumberInStage = 1;		// What round the player is on within a stage (increments in scr_waveControl)
+global.waveStage = 1;				// "Intensity stage" of player 
+global.wavesPerStage = 1;			// How many waves of difficulty X will occur per stage? (set to 1 for testing purposes)
+global.enemyDead = 0;				// Used to determine how many spawners are done spawning
+

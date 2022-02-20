@@ -1,10 +1,11 @@
 /// @description Fire big cannon interval
 
+// Subtract from small ammo remaining
+global.bigAmmo--;
+
 // Reset timer
 if(global.bigAmmo > 0)
 {
-	// Update state variable
-	canShootBig = true;
-	alarm[2] = room_speed * global.bigShotInterval;	
+	alarm[1] = room_speed * global.bigShotInterval;	
 }
 

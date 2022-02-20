@@ -25,6 +25,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"spawnInterval","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"value":"800","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"enemyType","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"value":"obj_enemy2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spawnsRemaining","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

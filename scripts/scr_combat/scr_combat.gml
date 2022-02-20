@@ -35,7 +35,10 @@ function damageObj(obj, amount)
 				instance_destroy(obj)
 			}
 			else {
-				instance_destroy(self);
+				// Destroy calling object and increment player score
+				//obj.points += self.healthPoints;
+			//	instance_destroy(self);
+				//instance_destroy(self);
 				
 				// Decrement player health
 				global.healthPoints -= amount;

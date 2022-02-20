@@ -31,5 +31,6 @@ function spawner_difficulty() {
 			spawnInterval *= 1.5
 			break
 	}
+	//return spawnInterval;
 	
 }

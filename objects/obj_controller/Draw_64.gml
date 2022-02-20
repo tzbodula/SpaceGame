@@ -9,6 +9,9 @@ draw_healthbar(
 	c_black,c_aqua,c_blue,0,true,true);
 
 // Set text color for label
+draw_set_colour(c_black);
+draw_set_font(brokenconsole);
+draw_text(16, 24, "Shields    " + string(global.shields) + "/" + string(global.shieldCapacity));
 if(global.shields > (global.shieldCapacity / 2))
 {
 	draw_set_colour(c_black);
@@ -17,7 +20,7 @@ else {
 	draw_set_colour(c_red);
 }
 
-draw_set_font(brokenconsole);
+
 draw_text(16, 24, "Shields    " + string(global.shields) + "/" + string(global.shieldCapacity));
 
 
@@ -39,6 +42,8 @@ else {
 	draw_set_colour(c_red);
 }
 
+
+
 draw_text(hbarXEnd/2 + 16, 24, "Fuel    " + string(global.fuel) + "/" + string(global.fuelCapacity));
 
 // Draw healthbar and label
@@ -51,6 +56,10 @@ draw_healthbar(
 	c_black,c_red,c_lime,0,true,true);
 
 // Set text color for label
+
+draw_set_colour(c_black);
+draw_set_font(brokenconsole);
+
 if(global.healthPoints > (global.healthCapacity / 2))
 {
 	draw_set_colour(c_black);
@@ -105,22 +114,9 @@ draw_text(
 	pbarStartX+10, 
 	100,
 	"Enemies in the area:    " + string(instance_number(obj_enemy1))
-	)
-
-// Check selected ammo type
-if(obj_playerShip.ammoType == AmmoTypes.SMALL)
-{
-	// Highlight selected ammo type
-	draw_set_colour(c_green);
-	draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
-	draw_set_colour(c_silver);
-	draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
-}
-else {
-	// Draw ammo remaining 
-	draw_set_colour(c_silver);
-	draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
-	draw_set_colour(c_green);
-	draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
-}
-
+	);
+	
+// Draw ammo remaining 
+draw_set_colour(c_silver);
+draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
+draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));

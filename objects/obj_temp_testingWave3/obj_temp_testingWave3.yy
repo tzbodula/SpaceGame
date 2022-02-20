@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_playerCharacter",
-    "path": "sprites/spr_playerCharacter/spr_playerCharacter.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Outer Space",
-    "path": "folders/Objects/Outer Space.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_playerCharacter",
+  "name": "obj_temp_testingWave3",
   "tags": [],
   "resourceType": "GMObject",
 }
