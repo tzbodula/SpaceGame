@@ -11,7 +11,7 @@ draw_healthbar(
 // Set text color for label
 draw_set_colour(c_black);
 draw_set_font(brokenconsole);
-draw_text(16, 24, "Shields    " + string(obj_playerShip.shields) + "/" + string(obj_playerShip.shieldCapacity));
+draw_text(16, 24, "Shields    " + string(global.shields) + "/" + string(global.shieldCapacity));
 if(global.shields > (global.shieldCapacity / 2))
 {
 	draw_set_colour(c_black);
@@ -56,10 +56,10 @@ draw_healthbar(
 	c_black,c_red,c_lime,0,true,true);
 
 // Set text color for label
-<<<<<<< HEAD
+
 draw_set_colour(c_black);
 draw_set_font(brokenconsole);
-=======
+
 if(global.healthPoints > (global.healthCapacity / 2))
 {
 	draw_set_colour(c_black);
@@ -67,7 +67,6 @@ if(global.healthPoints > (global.healthCapacity / 2))
 else {
 	draw_set_colour(c_red);
 }
->>>>>>> player-combat
 draw_text(
 	16, 
 	82, 
@@ -107,8 +106,7 @@ draw_set_colour(c_red);
 draw_text(
 	pbarStartX+10, 
 	82,
-<<<<<<< HEAD
-	"Points:    " + string(obj_playerShip.points)
+	"Points:    " + string(global.points)
 	);
 	
 draw_set_colour(c_red);
@@ -116,13 +114,9 @@ draw_text(
 	pbarStartX+10, 
 	100,
 	"Enemies in the area:    " + string(instance_number(obj_enemy1))
-	)
-=======
-	"Points:    " + string(global.points)
 	);
 	
 // Draw ammo remaining 
 draw_set_colour(c_silver);
 draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
 draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
->>>>>>> player-combat

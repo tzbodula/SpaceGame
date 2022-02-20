@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":18,},
     {"id":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"order":6,},
-    {"id":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},"order":5,},
     {"id":{"name":"rm_outerSpace","path":"rooms/rm_outerSpace/rm_outerSpace.yy",},"order":1,},
     {"id":{"name":"obj_enemy3Spawner","path":"objects/obj_enemy3Spawner/obj_enemy3Spawner.yy",},"order":8,},
     {"id":{"name":"spr_insane","path":"sprites/spr_insane/spr_insane.yy",},"order":9,},
@@ -72,7 +71,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
     {"roomId":{"name":"rm_introScreen","path":"rooms/rm_introScreen/rm_introScreen.yy",},},
     {"roomId":{"name":"rm_shipInterior","path":"rooms/rm_shipInterior/rm_shipInterior.yy",},},
     {"roomId":{"name":"rm_outerSpace","path":"rooms/rm_outerSpace/rm_outerSpace.yy",},},
