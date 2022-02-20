@@ -41,7 +41,6 @@
     {"id":{"name":"spr_enemyHugeBoi","path":"sprites/spr_enemyHugeBoi/spr_enemyHugeBoi.yy",},"order":4,},
     {"id":{"name":"obj_playerCharacter","path":"objects/obj_playerCharacter/obj_playerCharacter.yy",},"order":1,},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":5,},
-    {"id":{"name":"difficulty_spawners","path":"scripts/difficulty_spawners/difficulty_spawners.yy",},"order":2,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":17,},
     {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},"order":13,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":28,},
