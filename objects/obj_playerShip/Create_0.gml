@@ -3,30 +3,38 @@
 * This script runs whenever an instance of obj_playerShip is created
 *
 */
-
-max_hsp = 20;				//	Max horizontal movement speed
-max_vsp = 16;				//	Max vertical movement speed
 rspeed = 5;					//	Rotational speed  
-healthPoints = 100;		//	Set player health
-points = 0;					//	Instance variable for score
-shields = 50;				//	Player shields
-energy = 100;				//	Ship energy
-
-// Health, Shield, and power capacity (These will be upgradable)
-healthCapacity = healthPoints;
-shieldCapacity = shields;
-energyCapacity = energy;
-
-// Time in seconds between automatically decrementing player ship energy while in combat
-energyUseInterval = 2; // This could be upgradable
 
 
 // State variables/functions
 canMove = function() {
-			return energy > 0;		//	Player ship can only move if it has energy
+			return global.fuel > 0;			//	Player ship can only move if it has fuel
 		};
 
+canRotate = function() {
+			return global.energy > 0;		//	Player ship can only rotate if it has energy
+		};
+		
+hasSmallAmmo = function() {
+			return global.smallAmmo > 0;	//	Check if player has enough small ammo
+		}
+		
+hasBigAmmo = function() {
+			return global.bigAmmo > 0;		//	Check if player has enough big ammo
+		}
 
+
+canShootSmall = true;						//	State to control small ammo fire rate
+canShootBig = true;							//	State to control big ammo fire rate
+
+// Enumerator for ammo types
+enum AmmoTypes {
+		SMALL,
+		BIG
+	};
+	
+// Set default ammo type
+ammoType = AmmoTypes.SMALL;
 
 // Define struct to store input controls
 playerControls = {
@@ -47,9 +55,17 @@ playerControls = {
 	},								
 	rotateRight : function() {
 		return keyboard_check(ord("E"));		//	E to rotate/turn right
-	}	
+	},
+	fire : function() {
+		return keyboard_check(vk_space);	
+	}
 };
 
 
 // Alarm for automatically using energy
-alarm[0] = room_speed*energyUseInterval;
+alarm[0] = room_speed*global.energyUseInterval;
+
+
+
+// Alarm for big cannon fire rate
+//alarm[2] = room_speed * global.bigShotInterval;

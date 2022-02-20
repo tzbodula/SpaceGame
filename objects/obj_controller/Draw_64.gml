@@ -5,13 +5,46 @@ draw_healthbar(
 	hbarYStart,
 	hbarXEnd,
 	hbarYEnd,
-	obj_playerShip.shields,
+	global.shields,
 	c_black,c_aqua,c_blue,0,true,true);
 
 // Set text color for label
 draw_set_colour(c_black);
 draw_set_font(brokenconsole);
 draw_text(16, 24, "Shields    " + string(obj_playerShip.shields) + "/" + string(obj_playerShip.shieldCapacity));
+if(global.shields > (global.shieldCapacity / 2))
+{
+	draw_set_colour(c_black);
+}
+else {
+	draw_set_colour(c_red);
+}
+
+
+draw_text(16, 24, "Shields    " + string(global.shields) + "/" + string(global.shieldCapacity));
+
+
+// Draw fuel bar and label
+draw_healthbar(
+	(hbarXEnd/2)+1,
+	hbarYStart,
+	hbarXEnd,
+	hbarYEnd,
+	global.fuel,
+	c_black,c_maroon,c_orange,0,true,true);
+
+// Set text color for label
+if(global.fuel > (global.fuelCapacity / 2))
+{
+	draw_set_colour(c_black);
+}
+else {
+	draw_set_colour(c_red);
+}
+
+
+
+draw_text(hbarXEnd/2 + 16, 24, "Fuel    " + string(global.fuel) + "/" + string(global.fuelCapacity));
 
 // Draw healthbar and label
 draw_healthbar(
@@ -19,17 +52,28 @@ draw_healthbar(
 	hbarYStart + healthBarHeight + 5,
 	hbarXEnd,
 	hbarYEnd + healthBarHeight,
-	obj_playerShip.healthPoints,
+	global.healthPoints,
 	c_black,c_red,c_lime,0,true,true);
 
 // Set text color for label
+<<<<<<< HEAD
 draw_set_colour(c_black);
 draw_set_font(brokenconsole);
+=======
+if(global.healthPoints > (global.healthCapacity / 2))
+{
+	draw_set_colour(c_black);
+}
+else {
+	draw_set_colour(c_red);
+}
+>>>>>>> player-combat
 draw_text(
 	16, 
 	82, 
-	"Health    " + string(obj_playerShip.healthPoints) + "/" + string(obj_playerShip.healthCapacity)
+	"Health    " + string(global.healthPoints) + "/" + string(global.healthCapacity)
 	);
+
 
 // Draw energy bar and label
 draw_healthbar(
@@ -37,14 +81,24 @@ draw_healthbar(
 	hbarYStart,
 	pbarEndX,
 	hbarYStart + healthBarHeight,
-	obj_playerShip.healthPoints,
-	c_black,c_orange,c_yellow,0,true,true);
+	global.energy,
+	c_black,c_yellow,c_yellow,0,true,true);
 
-draw_set_colour(c_black);
+
+// Set text color for label
+if(global.energy > (global.energyCapacity / 2))
+{
+	draw_set_colour(c_black);
+}
+else {
+	draw_set_colour(c_red);
+}
+
+
 draw_text(
 	pbarStartX+10, 
 	26, 
-	"Energy    " + string(obj_playerShip.energy) + "/" + string(obj_playerShip.energyCapacity)
+	"Energy    " + string(global.energy) + "/" + string(global.energyCapacity)
 	);
 
 
@@ -53,6 +107,7 @@ draw_set_colour(c_red);
 draw_text(
 	pbarStartX+10, 
 	82,
+<<<<<<< HEAD
 	"Points:    " + string(obj_playerShip.points)
 	);
 	
@@ -62,3 +117,12 @@ draw_text(
 	100,
 	"Enemies in the area:    " + string(instance_number(obj_enemy1))
 	)
+=======
+	"Points:    " + string(global.points)
+	);
+	
+// Draw ammo remaining 
+draw_set_colour(c_silver);
+draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
+draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
+>>>>>>> player-combat

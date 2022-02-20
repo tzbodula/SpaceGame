@@ -4,29 +4,29 @@ function damageObj(obj, amount)
 	if(obj == obj_playerShip)
 	{
 		// Check if player has shields
-		if(obj.shields > 0)
+		if(global.shields > 0)
 		{
 			// Check if damage will overkill the shield (destroy shield with more damage left to deal)
-			if(obj.shields - amount <= 0)
+			if(global.shields - amount <= 0)
 			{
 				// Compute difference amount
-				diff = amount - obj.shields;
+				diff = amount - global.shields;
 				
 				// Set player shields to 0
-				obj.shields = 0;
+				global.shields = 0;
 				
 				// Subtract remaining damage from player health
-				obj.healthPoints -= diff;
+				global.healthPoints -= diff;
 			}
 			else {
 				// Damage player shields
-				obj.shields -= amount;
+				global.shields -= amount;
 			}
 		}
 		// No shields remaining
 		else {
 			// Check if damage will kill player
-			if(obj.healthPoints - amount <= 0)
+			if(global.healthPoints - amount <= 0)
 			{
 				// Destroy calling object
 				instance_destroy(self);
@@ -35,12 +35,16 @@ function damageObj(obj, amount)
 				instance_destroy(obj)
 			}
 			else {
+<<<<<<< HEAD
 				// Destroy calling object and increment player score
 				//obj.points += self.healthPoints;
 			//	instance_destroy(self);
+=======
+				instance_destroy(self);
+>>>>>>> player-combat
 				
 				// Decrement player health
-				obj.healthPoints -= amount;
+				global.healthPoints -= amount;
 			}
 		}
 	}

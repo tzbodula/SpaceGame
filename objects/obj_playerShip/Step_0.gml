@@ -13,8 +13,8 @@ function checkBounds()
 	y = clamp(y, sprite_yoffset * 3.2, room_height - sprite_yoffset*1.5);
 	
 	// Check numerical bounds 
-	vspeed = clamp(vspeed, -max_vsp, max_vsp);
-	hspeed = clamp(hspeed, -max_hsp, max_hsp);
+	vspeed = clamp(vspeed, -global.maxVsp, global.maxVsp);
+	hspeed = clamp(hspeed, -global.maxHsp, global.maxHsp);
 }
 
 // Check for and handle input from the player
@@ -24,34 +24,63 @@ function checkForInput()
 	if(playerControls.left() && canMove())
 	{
 		hspeed -= 2;
+		global.fuel -= 1;
 	}
 	// 	Rightward movement
 	if(playerControls.right() && canMove()) 
 	{
 		hspeed += 2;
+		global.fuel--;
 	}
 	// 	Upward movement
 	if(playerControls.up() && canMove()) 
 	{
 		vspeed -= 2;
+		global.fuel--;
 	}
 	// 	Downward movement
 	if(playerControls.down() && canMove()) 
 	{
 		vspeed += 2;
+		global.fuel--;
 	}
 	// Rotate left
-	if(playerControls.rotateLeft() && canMove())
+	if(playerControls.rotateLeft() && canRotate())
 	{
 		//	Update the image angle by rotation speed
 		image_angle += rspeed;
 	}
 	// Rotate right
-	if(playerControls.rotateRight() && canMove())
+	if(playerControls.rotateRight() && canRotate())
 	{
 		//	Update the image angle by rotation speed
 		image_angle -= rspeed;
 	}
+	
+	// Fire cannon
+	if(playerControls.fire() && (hasSmallAmmo() || hasBigAmmo()))
+	{
+		// Check current ammo type
+		switch(ammoType)
+		{
+			// Small ammo
+			case AmmoTypes.SMALL:
+				// Check if player has any small ammo and can fire
+				if(hasSmallAmmo() && canShootSmall)
+				{
+					// Update state
+					canShootSmall = false;
+					
+					// Spawn bullet object
+					instance_create_layer(x,y,"instances",obj_bullet);
+					
+					// Alarm for small cannon fire rate
+					alarm[1] = room_speed * global.smallShotInterval;	
+				}
+		}
+		
+	}
+	
 	
 	
 	//	Check if player is NOT pressing keys to move
