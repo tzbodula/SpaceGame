@@ -1,6 +1,14 @@
 // Initialize global player resources
 score = 0;
 
+
+/**
+===========================
+
+	GUI variables
+
+===========================
+*/
 healthBarLen = 500;				//	Health and shield bar length (in pixels)
 healthBarHeight = 56;			//	Health and shield bar height
 powerBarLen = 300;				//	Power bar length (in pixels)
@@ -21,7 +29,7 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 	Player variables
 
 ===========================
-*/
+**/
 
 // Resource values
 global.healthPoints = 100;			//	Set player health
@@ -43,6 +51,6 @@ global.smallAmmoCapacity = global.smallAmmo;
 global.bigAmmoCapacity = global.bigAmmo;
 
 // Timing intervals
-global.energyUseInterval = 1;	//	Automatically use 1 energy per second
-global.smallShotInterval = 0.5;	//	2 shots per second for small cannon
-global.bigShotInterval = 3;	//	1 shot every 3 seconds for big cannon
+global.energyUseInterval = 1;		//	Automatically use 1 energy per second
+global.smallShotInterval = 0.33;	//	delay (in seconds) for small cannon
+global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
