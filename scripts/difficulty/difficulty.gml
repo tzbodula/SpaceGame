@@ -3,16 +3,16 @@
 function difficulty(){
 	switch(global.difficulty) {
 		case "easy":
-			movement_speed *= 0.5
-			health_points *= 0.5
+			movementSpeed *= 0.5
+			healthPoints *= 0.5
 			break
 		case "medium":
-			movement_speed *= 1
-			health_points *= 1
+			movementSpeed *= 1
+			healthPoints *= 1
 			break
 		case "hard":
-			movement_speed *= 1.5
-			health_points *= 1.5
+			movementSpeed *= 1.5
+			healthPoints *= 1.5
 			break
 	}
 }

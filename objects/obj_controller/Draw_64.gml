@@ -1,3 +1,4 @@
+
 // Draw shield bar and label
 draw_healthbar(
 	hbarXStart,
@@ -101,7 +102,9 @@ draw_text(
 	"Points:    " + string(global.points)
 	);
 	
-// Draw ammo remaining 
-draw_set_colour(c_silver);
-draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
-draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
+draw_set_colour(c_red);
+draw_text(
+	pbarStartX+10, 
+	100,
+	"Enemies in the area:    " + string(instance_number(obj_enemy1))
+	)

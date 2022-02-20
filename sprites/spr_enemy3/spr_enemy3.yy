@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 119,
-  "bbox_top": 11,
-  "bbox_bottom": 120,
+  "bbox_left": 3,
+  "bbox_right": 130,
+  "bbox_top": 0,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
+  "width": 133,
   "height": 128,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"25ca8c5e-4a66-4de8-999e-ca3e1078b969","path":"sprites/spr_enemy3/spr_enemy3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"25ca8c5e-4a66-4de8-999e-ca3e1078b969","path":"sprites/spr_enemy3/spr_enemy3.yy",},"LayerId":{"name":"b7ad8d0c-cb37-411e-a903-002b713fc760","path":"sprites/spr_enemy3/spr_enemy3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"resourceVersion":"1.0","name":"25ca8c5e-4a66-4de8-999e-ca3e1078b969","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"76ec02a7-226e-4e62-b0d3-a3dcf179cf5d","path":"sprites/spr_enemy3/spr_enemy3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"76ec02a7-226e-4e62-b0d3-a3dcf179cf5d","path":"sprites/spr_enemy3/spr_enemy3.yy",},"LayerId":{"name":"08e1ea08-8cbc-430d-8e80-74e0589e72c7","path":"sprites/spr_enemy3/spr_enemy3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"resourceVersion":"1.0","name":"76ec02a7-226e-4e62-b0d3-a3dcf179cf5d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8100550b-97ea-4552-9e31-a20593feeb89","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"25ca8c5e-4a66-4de8-999e-ca3e1078b969","path":"sprites/spr_enemy3/spr_enemy3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1ed0f835-b6c1-4d4a-9401-ed10ca0a05d5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"76ec02a7-226e-4e62-b0d3-a3dcf179cf5d","path":"sprites/spr_enemy3/spr_enemy3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
+    "xorigin": 66,
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b7ad8d0c-cb37-411e-a903-002b713fc760","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"08e1ea08-8cbc-430d-8e80-74e0589e72c7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
