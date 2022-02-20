@@ -57,7 +57,10 @@ playerControls = {
 		return keyboard_check(ord("E"));		//	E to rotate/turn right
 	},
 	fire : function() {
-		return keyboard_check(vk_space);	
+		return keyboard_check(vk_space);		//	Spacebar to fire 
+	},
+	toggleCannon : function() {
+		return keyboard_check_pressed(vk_tab);			//	Tab to toggle ammo/cannon type	
 	}
 };
 
