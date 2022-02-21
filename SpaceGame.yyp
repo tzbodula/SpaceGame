@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":18,},
-    {"id":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"order":1,},
+    {"id":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"order":6,},
     {"id":{"name":"rm_outerSpace","path":"rooms/rm_outerSpace/rm_outerSpace.yy",},"order":1,},
     {"id":{"name":"obj_enemy3Spawner","path":"objects/obj_enemy3Spawner/obj_enemy3Spawner.yy",},"order":3,},
     {"id":{"name":"spr_insane","path":"sprites/spr_insane/spr_insane.yy",},"order":2,},
@@ -45,11 +45,18 @@
     {"id":{"name":"spr_playerCharacter","path":"sprites/spr_playerCharacter/spr_playerCharacter.yy",},"order":1,},
     {"id":{"name":"spr_enemyHugeBoi","path":"sprites/spr_enemyHugeBoi/spr_enemyHugeBoi.yy",},"order":4,},
     {"id":{"name":"obj_playerCharacter","path":"objects/obj_playerCharacter/obj_playerCharacter.yy",},"order":1,},
+<<<<<<< HEAD
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":6,},
     {"id":{"name":"spr_healthBarFill","path":"sprites/spr_healthBarFill/spr_healthBarFill.yy",},"order":4,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":7,},
     {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},"order":13,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":28,},
+=======
+    {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"order":5,},
+    {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},"order":13,},
+    {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":28,},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":17,},
+>>>>>>> bcbc2a78e6ae4e58b0685c524a320875104697ad
     {"id":{"name":"scr_displayScores","path":"scripts/scr_displayScores/scr_displayScores.yy",},"order":3,},
     {"id":{"name":"spr_roof","path":"sprites/spr_roof/spr_roof.yy",},"order":12,},
     {"id":{"name":"scr_waveControl","path":"scripts/scr_waveControl/scr_waveControl.yy",},"order":4,},
