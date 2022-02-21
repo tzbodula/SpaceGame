@@ -37,7 +37,8 @@ draw_text_transformed(1255, 5, string(global.enemiesRemaning) , 3, 3, 0);
 draw_set_colour(make_colour_rgb(255, 184, 51));
 draw_text_transformed(15, 5, "WAVE", 2.5, 2.5, 0);
 draw_set_colour(c_white);
-draw_text_transformed(155, 5, string(global.wave) , 2.5, 2.5, 0);
+// Counts literal wave difficulty level, not round that player is currently in
+draw_text_transformed(155, 5, string(global.waveStage) , 2.5, 2.5, 0);
 
 // Check selected ammo type
 if(obj_playerShip.ammoType == AmmoTypes.SMALL)
