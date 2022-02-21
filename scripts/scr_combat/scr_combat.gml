@@ -29,7 +29,7 @@ function damageObj(obj, amount)
 			if(global.healthPoints - amount <= 0)
 			{
 				// Destroy calling object
-				instance_destroy(self);
+				//instance_destroy(self);
 				
 				// Destroy player ship	
 				instance_destroy(obj)
