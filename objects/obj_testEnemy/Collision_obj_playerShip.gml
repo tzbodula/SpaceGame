@@ -2,7 +2,7 @@
 damageObj(obj_playerShip, damage);
 
 // Increment player score
-global.points += self.healthPoints;
+global.cash += self.healthPoints;
 
 instance_destroy(self);
 

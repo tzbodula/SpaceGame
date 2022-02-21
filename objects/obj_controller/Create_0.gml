@@ -34,6 +34,8 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 // Resource values
 global.healthPoints = 100;			//	Set player health
 global.points = 0;					//	Instance variable for score
+global.cash = 0;
+global.wave = 1;
 global.shields = 50;				//	Player shields
 global.fuel = 1000;					//	Ship fuel
 global.energy = 100;				//	Ship energy
@@ -41,6 +43,7 @@ global.smallAmmo = 100;				//	Ammo available for small cannon
 global.bigAmmo = 10;				//	Ammo available for big cannon
 global.maxHsp = 10;					//	Max hspeed (upgradable; 3 tiers)
 global.maxVsp = 8;					//	Max vspeed (upgradable; 3 tiers)
+global.enemiesRemaning = 0;
 
 // Resource capacity values (These will be upgradable)
 global.healthCapacity = global.healthPoints;
