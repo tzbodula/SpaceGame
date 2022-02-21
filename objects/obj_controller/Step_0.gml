@@ -11,3 +11,21 @@ if (mouse_check_button_pressed(mb_left)) {
 	}
 }
 */
+
+
+// Each step, check if the wave has concluded 
+waveStatus();
+
+/*
+// If all waves within a stage are over 
+if (global.waveNumberInStage == global.wavesPerStage) {
+	// Reset stage wave number
+	global.waveNumberInStage = 1;	
+	// Increase wave stage 
+	global.waveStage++; 
+}*/
+
+if (global.isWaveOver == true) {
+	endWave()
+	
+}

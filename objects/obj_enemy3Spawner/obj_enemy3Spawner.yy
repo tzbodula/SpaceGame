@@ -25,10 +25,11 @@
   "overriddenProperties": [
     {"propertyId":{"name":"spawnInterval","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"value":"1000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"enemyType","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"value":"obj_enemy3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spawnsRemaining","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"objectId":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Outer Space",
+    "path": "folders/Objects/Outer Space.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy3Spawner",
