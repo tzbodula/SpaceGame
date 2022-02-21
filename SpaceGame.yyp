@@ -3,6 +3,7 @@
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":18,},
     {"id":{"name":"obj_enemy1Spawner","path":"objects/obj_enemy1Spawner/obj_enemy1Spawner.yy",},"order":6,},
     {"id":{"name":"rm_outerSpace","path":"rooms/rm_outerSpace/rm_outerSpace.yy",},"order":1,},
+    {"id":{"name":"snd_introduction","path":"sounds/snd_introduction/snd_introduction.yy",},"order":0,},
     {"id":{"name":"obj_enemy3Spawner","path":"objects/obj_enemy3Spawner/obj_enemy3Spawner.yy",},"order":3,},
     {"id":{"name":"spr_insane","path":"sprites/spr_insane/spr_insane.yy",},"order":2,},
     {"id":{"name":"spr_photoFrame","path":"sprites/spr_photoFrame/spr_photoFrame.yy",},"order":24,},
@@ -77,6 +78,7 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -122,7 +124,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Broken Console Bold Shadow.otf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "SpaceGame",

@@ -12,7 +12,8 @@ if (mouse_check_button_pressed(mb_left))			// if user clicks left mouse button..
 	if (position_meeting(xx, yy, obj_insane))		// insane
 		global.difficulty = "insane"
 	
-	if global.difficulty != "null"		
+	if global.difficulty != "null"
+		audio_stop_sound(snd_introduction)
 		room_goto(rm_outerSpace)
 													
 }
