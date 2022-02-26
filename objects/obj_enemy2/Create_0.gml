@@ -3,6 +3,7 @@
 
 // Change variable values movement_speed and health_points based on difficulty
 scr_difficulty()
+originalSprite = sprite_index
 coinFlip = random_range(0, 1)
 inRoom = false
 canShoot = true

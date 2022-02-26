@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if !collisionPresent and instance_place(x, y, obj_playerShip) {
+	    audio_play_sound(snd_playerdamaged, 1, false)
 	    //set collisionPresent to true to avoid activating the collision state
 		collisionPresent = true
 		//damage the player ship

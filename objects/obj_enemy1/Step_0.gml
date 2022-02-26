@@ -9,6 +9,7 @@ if instance_exists(obj_playerShip) {
 	// then go ahead and execute this code
     if instance_place(x, y, obj_playerShip) {
 	   damageObj(obj_playerShip, 5)
+	   audio_play_sound(snd_playerdamaged, 1, false)
 	   instance_destroy()
     }
 }

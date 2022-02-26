@@ -5,7 +5,9 @@ if instance_exists(obj_playerShip) {
      // If there has been a collision and collisionPresent is false,
 	// then go ahead and execute this code
     if !collisionPresent and instance_place(x, y, obj_playerShip) {
-	    //set collisionPresent to true to avoid activating the collision state
+		audio_play_sound(snd_playerdamaged, 1, false)
+	    sprite_index = spriteCollision
+		//set collisionPresent to true to avoid activating the collision state
 		collisionPresent = true
 		//damage the player ship
 	    damageObj(obj_playerShip, collisionDamage)
