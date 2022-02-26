@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.51,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_wave1",
-  "duration": 0.0,
+  "soundFile": "snd_wave1.wav",
+  "duration": 177.304962,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
