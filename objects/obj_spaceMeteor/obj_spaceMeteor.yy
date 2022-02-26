@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy1",
-    "path": "sprites/spr_enemy1/spr_enemy1.yy",
+    "name": "spr_tempMeteor",
+    "path": "sprites/spr_tempMeteor/spr_tempMeteor.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"6","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"movementSpeed","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"10","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"healthPoints","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"7","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"pathSpeed","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"path_Meteor1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"assignedPath","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"2","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"rotationSpeed","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
@@ -36,7 +36,7 @@
     "path": "folders/Objects/Outer Space.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy1",
+  "name": "obj_spaceMeteor",
   "tags": [],
   "resourceType": "GMObject",
 }
