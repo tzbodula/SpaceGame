@@ -27,7 +27,8 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"assignedPath","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"objectId":{"name":"obj_spaceMeteor","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"value":"path_Meteor2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"pathSpeed","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"objectId":{"name":"obj_spaceMeteor","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"value":"7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"pathSpeed","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"objectId":{"name":"obj_spaceMeteor","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"value":"9","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"rotationSpeed","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"objectId":{"name":"obj_spaceMeteor","path":"objects/obj_spaceMeteor/obj_spaceMeteor.yy",},"value":"-4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Outer Space",
