@@ -17,7 +17,6 @@ if instance_exists(obj_playerShip) {
 		// set an alarm (gives time for the player to reposition and move out of the collision)
 	    alarm[1] = 150
     }
-
 }
 
 // Initial condition: if the enemy is spawned outside the room then move towards the middle
