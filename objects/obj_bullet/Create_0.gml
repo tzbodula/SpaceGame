@@ -1,3 +1,4 @@
+audio_play_sound(snd_playershoot, 1, false);
 direction = obj_playerShip.direction;
 image_angle = obj_playerShip.image_angle;
 
