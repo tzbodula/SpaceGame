@@ -60,7 +60,7 @@ else {
 	canShoot = false
 	instance_create_layer(x, y, "Instances", obj_enemyLaser)
 	alarm[2] = laserInterval
-}
+    }
 }
 
 

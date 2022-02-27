@@ -1,3 +1,3 @@
 with(obj_introSceneController) {
-	text = text + "\nAlso, watch out for meteors"
+	text = text + "\nHelp me find my dad plz"
 }
