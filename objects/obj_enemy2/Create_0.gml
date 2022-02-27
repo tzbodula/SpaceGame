@@ -7,4 +7,6 @@ originalSprite = sprite_index
 coinFlip = random_range(0, 1)
 inRoom = false
 canShoot = true
+// Make the enemies shoot faster as the waves increase
+laserInterval = laserInterval - (global.wave * 8)
 alarm[0] = 50
