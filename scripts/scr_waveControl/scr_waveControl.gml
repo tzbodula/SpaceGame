@@ -54,6 +54,7 @@ function endWave() {
 	
 	// If there are additional waves remaining...
 	if (global.waveStage <= global.totalWaves) {
+		audio_play_sound(snd_inBetweenWaves, 1, true)
 		// Continue game
 		room_goto(rm_shipInterior);
 	}
