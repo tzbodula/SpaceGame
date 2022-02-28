@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_easy",
-    "path": "sprites/spr_easy/spr_easy.yy",
+    "name": "spr_temp_skipButton",
+    "path": "sprites/spr_temp_skipButton/spr_temp_skipButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title Screen",
-    "path": "folders/Objects/Title Screen.yy",
+    "name": "Intro Scene",
+    "path": "folders/Objects/Intro Scene.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_easy",
+  "name": "obj_skipButton",
   "tags": [],
   "resourceType": "GMObject",
 }

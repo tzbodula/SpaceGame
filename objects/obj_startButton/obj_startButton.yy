@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_insane",
-    "path": "sprites/spr_insane/spr_insane.yy",
+    "name": "spr_temp_startButton",
+    "path": "sprites/spr_temp_startButton/spr_temp_startButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title Screen",
-    "path": "folders/Objects/Title Screen.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_insane",
+  "name": "obj_startButton",
   "tags": [],
   "resourceType": "GMObject",
 }

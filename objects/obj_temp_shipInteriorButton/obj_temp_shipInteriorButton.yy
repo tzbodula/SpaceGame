@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_hard",
-    "path": "sprites/spr_hard/spr_hard.yy",
+    "name": "spr_temp_shipInteriorButton",
+    "path": "sprites/spr_temp_shipInteriorButton/spr_temp_shipInteriorButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects/Title Screen.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hard",
+  "name": "obj_temp_shipInteriorButton",
   "tags": [],
   "resourceType": "GMObject",
 }
