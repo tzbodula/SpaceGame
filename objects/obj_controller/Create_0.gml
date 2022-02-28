@@ -59,4 +59,5 @@ global.smallShotInterval = 0.33;	//	delay (in seconds) for small cannon
 global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
 
 
-
+// By dafult, wave is still continuing 
+global.isWaveOver = false;

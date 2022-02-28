@@ -36,8 +36,6 @@ function increaseIntensity() {
 
 // Determine if wave has ended
 function waveStatus() {
-	// By dafult, wave is still continuing 
-	global.isWaveOver = false;
 	
 	// Wave has ended when all enemies are eliminated
 	if !instance_exists(obj_enemy1) and obj_enemy1Spawner.spawnsRemaining == 0 and 
@@ -72,9 +70,9 @@ function beginWave() {
 	// Return to playing field
 	room_goto(rm_outerSpace);
 	// Since spawners are not persistent, create new spawners
-	instance_create_layer(350, 150, "Instances", obj_enemy1Spawner);
-	instance_create_layer(1500, 700, "Instances", obj_enemy2Spawner);
-	instance_create_layer(300, 800, "Instances", obj_enemy3Spawner);
+	//instance_create_layer(350, 150, "Instances", obj_enemy1Spawner);
+	//instance_create_layer(1500, 700, "Instances", obj_enemy2Spawner);
+	//instance_create_layer(300, 800, "Instances", obj_enemy3Spawner);
 	// When new wave begins, increase difficulty
 	increaseIntensity();
 	

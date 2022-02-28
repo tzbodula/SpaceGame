@@ -26,6 +26,6 @@ if (global.waveNumberInStage == global.wavesPerStage) {
 }*/
 
 if (global.isWaveOver == true) {
+	audio_stop_all()
 	endWave()
-	
 }

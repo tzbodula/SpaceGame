@@ -76,6 +76,7 @@
     {"id":{"name":"snd_inBetweenWaves","path":"sounds/snd_inBetweenWaves/snd_inBetweenWaves.yy",},"order":7,},
     {"id":{"name":"spr_enemyLaser","path":"sprites/spr_enemyLaser/spr_enemyLaser.yy",},"order":27,},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},"order":14,},
+    {"id":{"name":"obj_waveMusic","path":"objects/obj_waveMusic/obj_waveMusic.yy",},"order":11,},
     {"id":{"name":"path_Meteor2","path":"paths/path_Meteor2/path_Meteor2.yy",},"order":1,},
     {"id":{"name":"obj_hard","path":"objects/obj_hard/obj_hard.yy",},"order":2,},
     {"id":{"name":"spr_gunCabinet","path":"sprites/spr_gunCabinet/spr_gunCabinet.yy",},"order":22,},
@@ -97,6 +98,7 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -143,7 +145,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Broken Console Bold Shadow.otf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "SpaceGame",
