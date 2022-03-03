@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_interWaveRoomController",
+  "name": "obj_interiorTimer",
   "tags": [],
   "resourceType": "GMObject",
 }

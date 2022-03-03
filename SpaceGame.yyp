@@ -40,6 +40,7 @@
     {"id":{"name":"obj_testEnemy","path":"objects/obj_testEnemy/obj_testEnemy.yy",},"order":5,},
     {"id":{"name":"obj_generateScores","path":"objects/obj_generateScores/obj_generateScores.yy",},"order":7,},
     {"id":{"name":"brokenconsole","path":"fonts/brokenconsole/brokenconsole.yy",},"order":0,},
+    {"id":{"name":"obj_interiorTimer","path":"objects/obj_interiorTimer/obj_interiorTimer.yy",},"order":17,},
     {"id":{"name":"obj_temp_shipInteriorButton","path":"objects/obj_temp_shipInteriorButton/obj_temp_shipInteriorButton.yy",},"order":1,},
     {"id":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"order":13,},
     {"id":{"name":"obj_skipButton","path":"objects/obj_skipButton/obj_skipButton.yy",},"order":0,},
