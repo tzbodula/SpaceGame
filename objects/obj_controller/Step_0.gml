@@ -12,7 +12,6 @@ if (mouse_check_button_pressed(mb_left)) {
 }
 */
 
-
 // Each step, check if the wave has concluded 
 waveStatus();
 
@@ -26,6 +25,15 @@ if (global.waveNumberInStage == global.wavesPerStage) {
 }*/
 
 if (global.isWaveOver == true) {
+	//make the room not persistent in order to reset variables back to 
+	//normal.
+	room_persistent = false
 	audio_stop_all()
 	endWave()
+}
+
+if (global.fuel <= 0 or global.energy <= 0) {
+	// if we run out of fuel or energy force the player to re-fill
+	//by switching rooms.
+	room_goto(rm_shipInteriorDuringWave)
 }

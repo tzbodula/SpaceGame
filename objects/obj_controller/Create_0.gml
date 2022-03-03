@@ -37,8 +37,8 @@ global.points = 0;					//	Instance variable for score
 global.cash = 0;
 global.wave = 1;
 global.shields = 50;				//	Player shields
-global.fuel = 100000;					//	Ship fuel
-global.energy = 10000;				//	Ship energy
+global.fuel = 5000;					//	Ship fuel
+global.energy = 5000;				//	Ship energy
 global.smallAmmo = 100;				//	Ammo available for small cannon
 global.bigAmmo = 10;				//	Ammo available for big cannon
 global.maxHsp = 10;					//	Max hspeed (upgradable; 3 tiers)
@@ -61,3 +61,6 @@ global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
 
 // By dafult, wave is still continuing 
 global.isWaveOver = false;
+
+//make the room persistent
+room_persistent = true
