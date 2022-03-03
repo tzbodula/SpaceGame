@@ -31,9 +31,15 @@ if (!inRoom and (x < (sprite_xoffset + 100) or x > (room_width - sprite_xoffset 
 else {
 	//when they make it into the room set inRoom true
 	inRoom = true
+	if !nearPlayer {
+		nearPlayer = true
+		global.enemiesNearPlayer += 1
+	}
 	//if for some reason they go outside the room then do inRoom is false
 	if x < 0 or x > room_width or y < 0 or y > room_height {
 	    inRoom = false
+		nearPlayer = false
+		global.enemiesNearPlayer -= 1
 	}
 	//as long as the player ship exists
 	if instance_exists(obj_playerShip) {

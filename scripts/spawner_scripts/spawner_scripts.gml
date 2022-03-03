@@ -1,10 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function spawnEnemy(objectType){
-	var xLeft = irandom_range(0,1)
+	var xLeft = random_range(0,1)
 	var xRandom = .5
 	var yRandom = .5
-	if xLeft == 1
+	if xLeft > .5
 	    xRandom = random_range(-5, -150)
 	else
 	    xRandom = random_range(room_width + 15, room_width + 150)

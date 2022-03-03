@@ -9,4 +9,5 @@ inRoom = false
 canShoot = true
 // Make the enemies shoot faster as the waves increase
 laserInterval = laserInterval - (global.wave * 8)
+nearPlayer = false
 alarm[0] = 50

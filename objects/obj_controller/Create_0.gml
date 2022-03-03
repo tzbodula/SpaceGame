@@ -64,3 +64,6 @@ global.isWaveOver = false;
 
 //make the room persistent
 room_persistent = true
+// a boolean variable to determine whether or not 
+// the player will take health damage when they have to refuel
+global.enemiesNearPlayer = 0
