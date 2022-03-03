@@ -3,11 +3,17 @@
 if countDown {
 	counter += 1
 }
+// every second inside the ship decrement the timer and healthPoints
 if counter % 60 == 0 {
 	seconds -= 1
-	global.healthPoints -= 2
+	//made it decrement by 20 for testing purposes
+	global.healthPoints -= 20
 }
 
+// if healthPoints <= 0 then restart the game
+if global.healthPoints <=0 {
+	game_restart()
+}
 // for now, make the player press Z to 
 // refill fuel and/or energy
 if keyboard_check(ord("Z")) {
