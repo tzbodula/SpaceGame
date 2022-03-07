@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Title Screen",
+    "path": "folders/Sprites/Title Screen.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_titleScreen",
