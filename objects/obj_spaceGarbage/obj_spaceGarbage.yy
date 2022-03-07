@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Outer Space",
+    "path": "folders/Objects/Outer Space.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_spaceGarbage",
