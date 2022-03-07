@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemyHugeBoi",
-    "path": "sprites/spr_enemyHugeBoi/spr_enemyHugeBoi.yy",
+    "name": "spr_ladder",
+    "path": "sprites/spr_ladder/spr_ladder.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Outer Space",
-    "path": "folders/Objects/Outer Space.yy",
+    "name": "Ship Interior",
+    "path": "folders/Objects/Ship Interior.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemyHugeBoi",
+  "name": "obj_ladder",
   "tags": [],
   "resourceType": "GMObject",
 }

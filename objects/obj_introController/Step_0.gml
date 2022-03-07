@@ -1,13 +1,16 @@
-// Determine coordinates of user click (for choosing difficulty level)
 
-if (mouse_check_button_pressed(mb_left))			// if user clicks left mouse button...
-{			
-	xx = mouse_x
-	yy = mouse_y
-																			
-	if (position_meeting(xx, yy, obj_startButton)) {			
-		audio_stop_sound(snd_introduction)
-		room_goto(rm_introScene)
-	}
-													
+// Walk left
+if keyboard_check(ord("A")) and instance_place(x, y, obj_floor){
+	sprite_index = spr_playerCharacter_walk
+	//alarm[0] = 20 // 1/3 of a second
+	x += -move_speed
+	image_xscale = -1
+}
+
+// Walk right
+if keyboard_check(ord("D")) and instance_place(x, y, obj_floor) {
+	sprite_index = spr_playerCharacter_walk
+	//alarm[0] = 20 // 1/3 of a second
+	x += move_speed
+	image_xscale = 1
 }
