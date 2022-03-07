@@ -5,10 +5,7 @@
 */
 
 draw_sprite_ext(spr_healthBar, -1, 100, 700, 0.5, 0.5, 0, c_white, 1)
-// Set text color for label
-draw_set_colour(c_black);
-draw_set_font(brokenconsole);
-draw_text(16, 24, "Shields    " + string(global.shields) + "/" + string(global.shieldCapacity));
+
 if(global.shields > (global.shieldCapacity / 2))
 {
 	draw_set_colour(c_black);
