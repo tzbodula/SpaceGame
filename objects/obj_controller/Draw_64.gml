@@ -36,7 +36,6 @@ draw_text_transformed(150, 720, string(global.healthPoints), 1, 1, 0);
 draw_text_transformed(450, 720, string(global.fuel), 1, 1, 0);
 
 draw_text_transformed(750, 720, string(global.energy), 1, 1, 0);
-draw_text(hbarXEnd/2 + 16, 24, "Fuel    " + string(global.fuel) + "/" + string(global.fuelCapacity));
 
 draw_text_transformed(1050, 720, string(global.shields), 1, 1, 0);
 
@@ -69,68 +68,3 @@ else {
 	draw_text(750, 650, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
 }
 
-// Set text color for label
-
-draw_set_colour(c_black);
-draw_set_font(brokenconsole);
-
-if(global.healthPoints > (global.healthCapacity / 2))
-{
-	draw_set_colour(c_black);
-}
-else {
-	draw_set_colour(c_red);
-}
-draw_text(
-	16, 
-	82, 
-	"Health    " + string(global.healthPoints) + "/" + string(global.healthCapacity)
-	);
-
-
-// Draw energy bar and label
-draw_healthbar(
-	pbarStartX,
-	hbarYStart,
-	pbarEndX,
-	hbarYStart + healthBarHeight,
-	global.energy,
-	c_black,c_yellow,c_yellow,0,true,true);
-
-
-// Set text color for label
-if(global.energy > (global.energyCapacity / 2))
-{
-	draw_set_colour(c_black);
-}
-else {
-	draw_set_colour(c_red);
-}
-
-
-draw_text(
-	pbarStartX+10, 
-	26, 
-	"Energy    " + string(global.energy) + "/" + string(global.energyCapacity)
-	);
-
-
-// Draw player's points(score)
-draw_set_colour(c_red);
-draw_text(
-	pbarStartX+10, 
-	82,
-	"Points:    " + string(global.points)
-	);
-	
-draw_set_colour(c_red);
-draw_text(
-	pbarStartX+10, 
-	100,
-	"Enemies in the area:    " + string(instance_number(obj_enemy1))
-	);
-	
-// Draw ammo remaining 
-draw_set_colour(c_silver);
-draw_text(pbarEndX+10, 12, "Small cannon:    " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity));
-draw_text(pbarEndX+10, 42, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
