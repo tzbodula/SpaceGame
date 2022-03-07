@@ -30,6 +30,7 @@
     {"id":{"name":"rm_introScreen","path":"rooms/rm_introScreen/rm_introScreen.yy",},"order":3,},
     {"id":{"name":"spr_healthBar","path":"sprites/spr_healthBar/spr_healthBar.yy",},"order":0,},
     {"id":{"name":"obj_spaceMeteor2","path":"objects/obj_spaceMeteor2/obj_spaceMeteor2.yy",},"order":10,},
+    {"id":{"name":"obj_garbageSpawner","path":"objects/obj_garbageSpawner/obj_garbageSpawner.yy",},"order":19,},
     {"id":{"name":"spr_temp_skipButton","path":"sprites/spr_temp_skipButton/spr_temp_skipButton.yy",},"order":17,},
     {"id":{"name":"obj_playerShip","path":"objects/obj_playerShip/obj_playerShip.yy",},"order":8,},
     {"id":{"name":"spr_shieldBar","path":"sprites/spr_shieldBar/spr_shieldBar.yy",},"order":2,},
