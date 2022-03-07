@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Ship Interior",
+    "path": "folders/Sprites/Ship Interior.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_window",
