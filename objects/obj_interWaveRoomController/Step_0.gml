@@ -16,12 +16,3 @@ if counter % 60 == 0 {
 if global.healthPoints <=0 {
 	game_restart()
 }
-// for now, make the player press Z to 
-// refill fuel and/or energy
-if keyboard_check(ord("Z")) {
-	if global.fuel <= 0
-	   global.fuel = 1500
-	if global.energy <= 0
-	   global.energy = 1500
-	room_goto(rm_outerSpace)
-}

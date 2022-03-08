@@ -38,6 +38,7 @@
     {"id":{"name":"spr_temp_skipButton","path":"sprites/spr_temp_skipButton/spr_temp_skipButton.yy",},"order":17,},
     {"id":{"name":"rm_shipInterior_DuringWave","path":"rooms/rm_shipInterior_DuringWave/rm_shipInterior_DuringWave.yy",},"order":8,},
     {"id":{"name":"obj_playerShip","path":"objects/obj_playerShip/obj_playerShip.yy",},"order":8,},
+    {"id":{"name":"obj_powerSourceIndicator","path":"objects/obj_powerSourceIndicator/obj_powerSourceIndicator.yy",},"order":5,},
     {"id":{"name":"spr_shieldBar","path":"sprites/spr_shieldBar/spr_shieldBar.yy",},"order":2,},
     {"id":{"name":"spr_playerShip","path":"sprites/spr_playerShip/spr_playerShip.yy",},"order":9,},
     {"id":{"name":"rm_shipInterior","path":"rooms/rm_shipInterior/rm_shipInterior.yy",},"order":2,},
