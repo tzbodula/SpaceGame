@@ -35,5 +35,5 @@ if (global.isWaveOver == true) {
 if (global.fuel <= 0 or global.energy <= 0) {
 	// if we run out of fuel or energy force the player to re-fill
 	//by switching rooms.
-	room_goto(rm_shipInteriorDuringWave)
+	room_goto(rm_shipInterior_DuringWave)
 }
