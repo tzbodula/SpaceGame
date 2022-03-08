@@ -38,7 +38,7 @@
     {"varType":5,"value":"spr_enemy2Collision","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spriteCollision","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
-    {"propertyId":{"name":"healthPoints","path":"objects/obj_enemy1/obj_enemy1.yy",},"objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"healthPoints","path":"objects/obj_enemy1/obj_enemy1.yy",},"objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"movementSpeed","path":"objects/obj_enemy1/obj_enemy1.yy",},"objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
