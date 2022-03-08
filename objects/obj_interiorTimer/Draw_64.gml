@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(250,100, "Get setup before the next wave of enemies!")
-draw_text(250,125, seconds)
-draw_text(300, 125, "Seconds Remaining")
+draw_set_colour(make_colour_rgb(255, 184, 51));
+draw_text(obj_playerCharacter.x + 30, obj_playerCharacter.y - 200, "GET READY FOR THE NEXT INCOMING ENEMIES")
+draw_text(obj_playerCharacter.x + 30, obj_playerCharacter.y - 150, string(seconds) +  " seconds before they arrive")

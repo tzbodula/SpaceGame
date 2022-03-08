@@ -67,3 +67,4 @@ room_persistent = true
 // a boolean variable to determine whether or not 
 // the player will take health damage when they have to refuel
 global.enemiesNearPlayer = 0
+global.shipSink = false
