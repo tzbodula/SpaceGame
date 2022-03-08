@@ -9,10 +9,11 @@ if counter % 60 == 0 {
 	    //made it decrement by 20 for testing purposes
 	//if there were enemies in the vicinity, decrease health by 5
 	if global.enemiesNearPlayer > 0
-	    global.healthPoints -= 5
+	    damageObj(obj_playerShip, 5)
 }
 
 // if healthPoints <= 0 then restart the game
 if global.healthPoints <=0 {
-	game_restart()
+	global.shipSink = true
+    room_goto(rm_outerSpace)
 }

@@ -7,3 +7,9 @@ draw_text(
 	obj_playerCharacter.y - 150, 
 	"Health    " + string(global.healthPoints) + "/" + string(global.healthCapacity)
 );
+
+draw_text(
+	obj_playerCharacter.x + 30, 
+	obj_playerCharacter.y - 100, 
+	"Shields    " + string(global.shields) + "/" + string(global.shieldCapacity)
+);
