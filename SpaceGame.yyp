@@ -47,6 +47,7 @@
     {"id":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"order":13,},
     {"id":{"name":"obj_skipButton","path":"objects/obj_skipButton/obj_skipButton.yy",},"order":0,},
     {"id":{"name":"spr_spaceGarbage","path":"sprites/spr_spaceGarbage/spr_spaceGarbage.yy",},"order":10,},
+    {"id":{"name":"scr_cheats","path":"scripts/scr_cheats/scr_cheats.yy",},"order":5,},
     {"id":{"name":"spr_waveCounter","path":"sprites/spr_waveCounter/spr_waveCounter.yy",},"order":18,},
     {"id":{"name":"obj_introController","path":"objects/obj_introController/obj_introController.yy",},"order":0,},
     {"id":{"name":"spr_dogbed","path":"sprites/spr_dogbed/spr_dogbed.yy",},"order":4,},
@@ -103,6 +104,7 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
+  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -153,7 +155,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Broken Console Bold Shadow.otf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "SpaceGame",
