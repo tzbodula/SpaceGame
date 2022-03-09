@@ -6,7 +6,8 @@ if (mouse_check_button_pressed(mb_left))
 	yy = mouse_y
 																			
 	if (position_meeting(xx, yy, obj_skipButton)) {			
-		room_goto(rm_outerSpace)
+		room_goto(rm_shipInterior)
+		
 	}
 													
 }

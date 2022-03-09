@@ -20,14 +20,6 @@ global.wave_spawnInterval_multiplier = 1/global.waveStage;
 // For implementing waves
 
 function increaseIntensity() {
-	// Spawn enemy # ... Increase from 1-->2-->3 for testing putposes
-	//obj_enemy1Spawner.spawnsRemaining = global.waveStage;
-	//obj_enemy2Spawner.spawnsRemaining = global.waveStage;
-	//obj_enemy3Spawner.spawnsRemaining = global.waveStage;
-	// Spawn interval
-	//obj_enemy1Spawner.spawnInterval = global.waveStage;
-	//obj_enemy2Spawner.spawnInterval = global.waveStage;
-	//obj_enemy3Spawner.spawnInterval = global.waveStage;
 	 global.wave_spawnsRemaining_multiplier = global.waveStage;
 	 global.wave_spawnInterval_multiplier = 1/global.waveStage;
 	
@@ -37,7 +29,7 @@ function increaseIntensity() {
 // Determine if wave has ended
 function waveStatus() {
 	
-	// Wave has ended when all enemies are eliminated
+	// Wave has ended when all enemies are spawned and eliminated
 	if !instance_exists(obj_enemy1) and obj_enemy1Spawner.spawnsRemaining == 0 and 
 	   !instance_exists(obj_enemy2) and obj_enemy2Spawner.spawnsRemaining == 0 and
 	   !instance_exists(obj_enemy3) and obj_enemy3Spawner.spawnsRemaining == 0 {
@@ -62,7 +54,7 @@ function endWave() {
 	// If there are no additional waves remaining...
 	else
 		// End game
-		room_goto(rm_introScreen);
+		room_goto(rm_titleScreen);
 	
 }
 
@@ -70,10 +62,7 @@ function endWave() {
 function beginWave() {
 	// Return to playing field
 	room_goto(rm_outerSpace);
-	// Since spawners are not persistent, create new spawners
-	//instance_create_layer(350, 150, "Instances", obj_enemy1Spawner);
-	//instance_create_layer(1500, 700, "Instances", obj_enemy2Spawner);
-	//instance_create_layer(300, 800, "Instances", obj_enemy3Spawner);
+
 	// When new wave begins, increase difficulty
 	increaseIntensity();
 	
