@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_playerCharacter_front",
+    "path": "sprites/spr_playerCharacter_front/spr_playerCharacter_front.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

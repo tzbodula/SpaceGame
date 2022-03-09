@@ -7,7 +7,7 @@ playerMovement = {
 
 // Room borders
 x = clamp(x, 0, room_width)
-y = clamp(y, obj_ladder.bbox_top, 735)
+y = clamp(y, obj_marker.bbox_top, 670)
 
 
 // Climbing mechanics
@@ -15,7 +15,7 @@ if instance_place(x, y, obj_ladder) {
 		if keyboard_check(keys.up) or keyboard_check(keys.down) {
 			climbing = true
 			walking = false
-			if instance_place(x, y+climb_speed, obj_floorBorder)
+			if instance_place(x, y+climb_speed, obj_floorBorder) or instance_place(x, y, obj_floorBorderUpper)
 				walking = true
 			sprite_index = spr_playerCharacter_side
 	}
@@ -66,5 +66,7 @@ if walking {
 		//alarm[0] = 20 // 1/3 of a second
 		x += move_speed
 		image_xscale = 1
+		
+
 	}
 }
