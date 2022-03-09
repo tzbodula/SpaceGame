@@ -5,3 +5,6 @@ keys = {
 	up : ord("W"),
 	down : ord("S")
 }
+
+spr = object_get_sprite(obj_playerCharacter)
+pc_height = sprite_height(spr)

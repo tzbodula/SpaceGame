@@ -75,6 +75,7 @@
     {"id":{"name":"scr_waveControl","path":"scripts/scr_waveControl/scr_waveControl.yy",},"order":4,},
     {"id":{"name":"spr_playerCharacter_walk","path":"sprites/spr_playerCharacter_walk/spr_playerCharacter_walk.yy",},"order":6,},
     {"id":{"name":"path_Meteor1","path":"paths/path_Meteor1/path_Meteor1.yy",},"order":0,},
+    {"id":{"name":"obj_floorBorderUpper","path":"objects/obj_floorBorderUpper/obj_floorBorderUpper.yy",},"order":6,},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":4,},
     {"id":{"name":"spr_innerWall","path":"sprites/spr_innerWall/spr_innerWall.yy",},"order":10,},
     {"id":{"name":"spr_temp_startButton","path":"sprites/spr_temp_startButton/spr_temp_startButton.yy",},"order":16,},
