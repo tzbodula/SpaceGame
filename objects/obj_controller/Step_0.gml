@@ -37,3 +37,6 @@ if (global.fuel <= 0 or global.energy <= 0) {
 	//by switching rooms.
 	room_goto(rm_shipInteriorDuringWave)
 }
+
+// Check for cheat code entry
+checkForCheatCode();
