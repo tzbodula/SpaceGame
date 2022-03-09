@@ -1,7 +1,7 @@
 # SpaceGame
 Project for ITCS-4230/5230
 
-<"Short description of game?">
+<"When the galaxy is suddenly attacked by intergalactic mutated space garbage, society plunges into chaos in search of a solution or face total annihilation. Word soon began to spread among the planets of a legend once thought only to be a fairytale. The legend of the Galaxy Defender.">
 
 ##  Project conventions
 These conventions exist across the project:
