@@ -1,7 +1,7 @@
 # SpaceGame
-Project for ITCS-4230/5230
+Project for ITCS-4230/5230: Introduction to Game Design & Development
 
-<"When the galaxy is suddenly attacked by intergalactic mutated space garbage, society plunges into chaos in search of a solution or face total annihilation. Word soon began to spread among the planets of a legend once thought only to be a fairytale. The legend of the Galaxy Defender.">
+When the galaxy is suddenly attacked by intergalactic mutated space garbage, society plunges into chaos in search of a solution or face total annihilation. Word soon began to spread among the planets of a legend once thought only to be a fairytale. The legend of the Galaxy Defender.
 
 ##  Project conventions
 These conventions exist across the project:
@@ -16,9 +16,10 @@ These conventions exist across the project:
 
 ##  Rooms
 The game has 3 rooms:
-- `rm_titleScreen` : Title screen where player can choose between starting the tutorial or game.
-- `rm_shipInterior` : Inside of player's ship, where they can repair, upgrade, or restart their ship.
-- `rm_outerSpace` : Combat area where player will interact with enemies.
+- `rm_titleScreen`: Title screen where player can choose between starting the tutorial or game.
+- `rm_introScene`: Text scene which leads to a tutorial where the player can learn about the context and controls of the game.
+- `rm_shipInterior`: Inside of player's ship, where they can repair, upgrade, and restart their ship.
+- `rm_outerSpace`: Combat area where player will interact with enemies.
  
 ##  Sprites
 
