@@ -31,6 +31,7 @@
     {"id":{"name":"spr_fuelBar","path":"sprites/spr_fuelBar/spr_fuelBar.yy",},"order":1,},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":2,},
     {"id":{"name":"snd_wave1","path":"sounds/snd_wave1/snd_wave1.yy",},"order":4,},
+    {"id":{"name":"obj_playerStats","path":"objects/obj_playerStats/obj_playerStats.yy",},"order":15,},
     {"id":{"name":"Sprite48","path":"sprites/Sprite48/Sprite48.yy",},"order":18,},
     {"id":{"name":"spr_energyTube","path":"sprites/spr_energyTube/spr_energyTube.yy",},"order":5,},
     {"id":{"name":"spr_bed","path":"sprites/spr_bed/spr_bed.yy",},"order":0,},
@@ -161,7 +162,6 @@
     {"folderPath":"folders/Sprites/Ship Interior/Player Character.yy","order":23,"resourceVersion":"1.0","name":"Player Character","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Ship Interior.yy","order":20,"resourceVersion":"1.0","name":"Ship Interior","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Tutorial.yy","order":21,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms/Tutorial.yy","order":10,"resourceVersion":"1.0","name":"Tutorial","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

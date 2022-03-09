@@ -34,7 +34,6 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 // Resource values
 global.healthPoints = 100;			//	Set player health
 global.points = 0;					//	Instance variable for score
-global.cash = 0;
 global.wave = 1;
 global.shields = 50;				//	Player shields
 global.fuel = 2000;					//	Ship fuel
