@@ -1,10 +1,10 @@
 # SpaceGame
-Project for ITCS-4230/5230
+Project for ITCS-4230/5230: Introduction to Game Design & Development
 
-<"Short description of game?">
+When the galaxy is suddenly attacked by intergalactic mutated space garbage, society plunges into chaos in search of a solution or face total annihilation. Word soon began to spread among the planets of a legend once thought only to be a fairytale. The legend of the Galaxy Defender.
 
 ##  Project conventions
-These conventions exist across the majority (if not all) of the project:
+These conventions exist across the project:
 
 - Outside of seperating the asset type (sprite,object,etc.) with a "_", variables use camel-case notation (See examples below)
 - Room names begin with `rm_`, Ex) `rm_main`
@@ -15,9 +15,12 @@ These conventions exist across the majority (if not all) of the project:
 - Sprites and their corresponding objects have the same name following their respective "_" s. Ex) `spr_playerShip and obj_playerShip`
 
 ##  Rooms
-The game (as of 2/10/22) has 2 rooms:
- - `rm_main` : Main game area, where player fights enemy ships
- - `rm_shipInterior` : Inside of player's ship, where they can repair, upgrade, or restart their ship
+The game has 3 rooms:
+- `rm_titleScreen`: Title screen where player can choose between starting the tutorial or game.
+- `rm_introScene`: Text scene which leads to a tutorial where the player can learn about the context and controls of the game.
+- `rm_shipInterior`: Inside of player's ship, where they can repair, upgrade, and restart their ship.
+- `rm_outerSpace`: Combat area where player will interact with enemies.
+ 
 ##  Sprites
 
 - The room(s) is/are 1920x1080 pixels
@@ -35,6 +38,3 @@ The game has 3 main enemy types:
 - `_enemy1` : <"info about enemy1">
 - `_enemy2` : <"info about enemy2">
 - `_enemy3` : <"info about enemy3">
-
-It also includes 1 boss enemy:
-- `_enemyHugeBoi` : <"info about enemyHugeBoi">

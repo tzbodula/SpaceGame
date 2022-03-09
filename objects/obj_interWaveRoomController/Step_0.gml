@@ -9,19 +9,11 @@ if counter % 60 == 0 {
 	    //made it decrement by 20 for testing purposes
 	//if there were enemies in the vicinity, decrease health by 5
 	if global.enemiesNearPlayer > 0
-	    global.healthPoints -= 5
+	    damageObj(obj_playerShip, 5)
 }
 
 // if healthPoints <= 0 then restart the game
 if global.healthPoints <=0 {
-	game_restart()
-}
-// for now, make the player press Z to 
-// refill fuel and/or energy
-if keyboard_check(ord("Z")) {
-	if global.fuel <= 0
-	   global.fuel = 1500
-	if global.energy <= 0
-	   global.energy = 1500
-	room_goto(rm_outerSpace)
+	global.shipSink = true
+    room_goto(rm_outerSpace)
 }

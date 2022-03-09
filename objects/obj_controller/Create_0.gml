@@ -183,7 +183,6 @@ global.playerUpgrades = {
 			//show_debug_message(string(upgradeName) + " cost = $" + string(upgrade.cost));
 		},
 		
-		
-	};
+};
 
-
+global.shipSink = false

@@ -1,13 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_text(room_width/2, 100, "Press Z to refill before ship sinks into space!")
-draw_text(room_width/2, 200, seconds)
-draw_text(room_width/2, 250, "seconds remaining before ship sinks")
-draw_text(250,350, death_message)
-
+draw_text(obj_playerCharacter.x + 30, obj_playerCharacter.y - 200, string(seconds) +  " seconds remaining before ship sinks")
 // decrement the health as time goes on
 draw_text(
-	room_width/2, 
-	300, 
+	obj_playerCharacter.x + 30, 
+	obj_playerCharacter.y - 150, 
 	"Health    " + string(global.healthPoints) + "/" + string(global.healthCapacity)
+);
+
+draw_text(
+	obj_playerCharacter.x + 30, 
+	obj_playerCharacter.y - 100, 
+	"Shields    " + string(global.shields) + "/" + string(global.shieldCapacity)
 );

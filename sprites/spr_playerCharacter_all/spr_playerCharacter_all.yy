@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 0,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ship Interior",
-    "path": "folders/Sprites/Ship Interior.yy",
+    "name": "Player Character",
+    "path": "folders/Sprites/Ship Interior/Player Character.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_playerCharacter_all",
