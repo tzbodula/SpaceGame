@@ -15,7 +15,7 @@ These conventions exist across the project:
 - Sprites and their corresponding objects have the same name following their respective "_" s. Ex) `spr_playerShip and obj_playerShip`
 
 ##  Rooms
-The game has 3 rooms:
+The game has 4 rooms:
 - `rm_titleScreen`: Title screen where player can choose between starting the tutorial or game.
 - `rm_introScene`: Text scene which leads to a tutorial where the player can learn about the context and controls of the game.
 - `rm_shipInterior`: Inside of player's ship, where they can repair, upgrade, and restart their ship.
