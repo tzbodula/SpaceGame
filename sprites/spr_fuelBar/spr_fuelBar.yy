@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_fuelBar","path":"sprites/spr_fuelBar/spr_fuelBar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_fuelBar",
     "tags": [],
     "resourceType": "GMSequence",

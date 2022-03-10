@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_waveCounter","path":"sprites/spr_waveCounter/spr_waveCounter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_waveCounter",
     "tags": [],
     "resourceType": "GMSequence",

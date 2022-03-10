@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_temp_tutorialButton","path":"sprites/spr_temp_tutorialButton/spr_temp_tutorialButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_temp_tutorialButton",
     "tags": [],
     "resourceType": "GMSequence",

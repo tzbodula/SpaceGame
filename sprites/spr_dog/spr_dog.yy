@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dog","path":"sprites/spr_dog/spr_dog.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_dog",
     "tags": [],
     "resourceType": "GMSequence",
