@@ -62,6 +62,7 @@ global.isWaveOver = false;
 
 //make the room persistent
 if global.tutorial {
+	persistent = false
     room_persistent = false
 } else {
 	room_persistent = true
