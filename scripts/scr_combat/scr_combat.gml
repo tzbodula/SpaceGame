@@ -30,7 +30,7 @@ function damageObj(obj, amount)
 			{
 				// Destroy calling object
 				//instance_destroy(self);
-				
+				scr_resetGame()
 				// Destroy player ship	
 				instance_destroy(obj)
 			}

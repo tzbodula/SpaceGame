@@ -5,5 +5,6 @@ if keyboard_check_pressed(ord("Z")) {
 	   global.fuel = 1500
 	if global.energy <= 0
 	   global.energy = 1500
+	global.insideShip = false
 	room_goto(rm_outerSpace)
 }
