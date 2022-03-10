@@ -32,7 +32,7 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 **/
 
 // Resource values
-global.healthPoints = 999999;			//	Set player health
+global.healthPoints = 100;			//	Set player health
 global.points = 0;					//	Instance variable for score
 global.wave = 1;
 global.shields = 100;				//	Player shields
