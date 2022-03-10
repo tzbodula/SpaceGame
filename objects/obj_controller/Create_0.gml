@@ -62,7 +62,11 @@ global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
 global.isWaveOver = false;
 
 //make the room persistent
-room_persistent = true
+if global.tutorial {
+    room_persistent = false
+} else {
+	room_persistent = true
+}
 // a boolean variable to determine whether or not 
 // the player will take health damage when they have to refuel
 global.enemiesNearPlayer = 0
