@@ -12,6 +12,5 @@ if global.tutorial {
 
 else {
 	instance_deactivate_object(obj_tutorialController2)
-	//instance_activate_object(obj_playerStats)
 }
 
