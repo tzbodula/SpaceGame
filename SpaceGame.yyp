@@ -115,7 +115,7 @@
     {"id":{"name":"spr_greenTerminal","path":"sprites/spr_greenTerminal/spr_greenTerminal.yy",},"order":0,},
     {"id":{"name":"snd_playershoot","path":"sounds/snd_playershoot/snd_playershoot.yy",},"order":2,},
     {"id":{"name":"obj_roomPersistent","path":"objects/obj_roomPersistent/obj_roomPersistent.yy",},"order":16,},
-    {"id":{"name":"spr_temp_tutorialButton","path":"sprites/spr_temp_tutorialButton/spr_temp_tutorialButton.yy",},"order":2,},
+    {"id":{"name":"spr_tutorialButton","path":"sprites/spr_tutorialButton/spr_tutorialButton.yy",},"order":2,},
     {"id":{"name":"spr_shopTerminal","path":"sprites/spr_shopTerminal/spr_shopTerminal.yy",},"order":15,},
     {"id":{"name":"obj_spaceGarbage","path":"objects/obj_spaceGarbage/obj_spaceGarbage.yy",},"order":13,},
     {"id":{"name":"spr_titleScreen","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},"order":1,},
