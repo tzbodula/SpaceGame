@@ -22,5 +22,6 @@ if counter % 60 == 0 {
 // if healthPoints <= 0 then restart the game
 if global.healthPoints <= 0 {
 	global.shipSink = true
+	global.insideShip = false
     room_goto(rm_outerSpace)
 }

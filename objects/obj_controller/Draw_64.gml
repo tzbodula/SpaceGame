@@ -3,7 +3,7 @@
  This section is dedicated towards drawing the HUD bars 
  and anchoring towards the bottom of the screen
 */
-
+if !global.insideShip{
 draw_sprite_ext(spr_healthBar, -1, 100, 700, 0.5, 0.5, 0, c_white, 1)
 
 if(global.shields > (global.shieldCapacity / 2))
@@ -41,7 +41,7 @@ draw_text_transformed(15, 55, "$" , 1.5, 1.5, 0);
 draw_set_colour(c_lime);
 draw_text_transformed(35, 55, string(global.cash) , 1.5, 1.5, 0);
 draw_set_colour(c_red);
-draw_text_transformed(1255, 5, string(global.enemiesRemaning) , 3, 3, 0);
+draw_text_transformed(1255, 5, string(instance_number(obj_enemy1)) , 3, 3, 0);
 draw_set_colour(make_colour_rgb(255, 184, 51));
 draw_text_transformed(15, 5, "WAVE", 2.5, 2.5, 0);
 draw_set_colour(c_white);
@@ -64,4 +64,6 @@ else {
 	draw_set_colour(c_orange);
 	draw_text(750, 650, "Big cannon:    " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity));
 }
+}
+
 

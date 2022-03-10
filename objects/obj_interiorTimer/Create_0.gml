@@ -5,5 +5,5 @@ counter = 0
 // ensure theres a countdown
 countDown = true
 // give player 25 seconds
-seconds = 25
-alarm[0] = 1500
+seconds = 5
+alarm[0] = 300
