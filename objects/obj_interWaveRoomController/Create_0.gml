@@ -2,5 +2,5 @@
 // You can write your code in this editor
 counter = 0
 countDown = true
-seconds = 10
-alarm[0] = 600
+seconds = 25
+alarm[0] = 1500
