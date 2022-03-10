@@ -11,12 +11,12 @@ if !global.tutorial {
         global.fuel += 200
 		
 	// add 30 points to the ammo
-    value = global.smallAmmo + 30
+    value = global.smallAmmo + 15
     // if the fuel capcaity is exceeded then bring it back to normal levels
     if value > global.smallAmmoCapacity
         global.smallAmmo = global.smallAmmoCapacity
     else
-        global.smallAmmo += 30
+        global.smallAmmo += 15
 } else {
 	global.fuel += 20000
 	global.energy += 20000
