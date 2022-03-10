@@ -21,13 +21,5 @@ if counter % 60 == 0 {
 
 // if healthPoints <= 0 then restart the game
 if global.healthPoints <= 0 {
-	global.shipSink = true
-	global.insideShip = false
-	global.healthPoints = global.healthCapacity
-	global.shields = global.shieldCapacity
-	global.fuel = global.fuelCapacity
-	global.energy = global.energyCapacity
-	global.smallAmmo = global.smallAmmoCapacity
-    global.bigAmmo = global.bigAmmoCapacity
-    room_goto(rm_outerSpace)
+	scr_resetGame()
 }

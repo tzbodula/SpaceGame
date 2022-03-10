@@ -77,6 +77,7 @@
     {"id":{"name":"spr_healthBarFill","path":"sprites/spr_healthBarFill/spr_healthBarFill.yy",},"order":4,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":7,},
     {"id":{"name":"obj_floorBorder","path":"objects/obj_floorBorder/obj_floorBorder.yy",},"order":4,},
+    {"id":{"name":"scr_gameOver","path":"scripts/scr_gameOver/scr_gameOver.yy",},"order":5,},
     {"id":{"name":"snd_wave2","path":"sounds/snd_wave2/snd_wave2.yy",},"order":5,},
     {"id":{"name":"spr_window","path":"sprites/spr_window/spr_window.yy",},"order":19,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":5,},
