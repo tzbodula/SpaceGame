@@ -88,6 +88,7 @@
     {"id":{"name":"spr_blankTerminal","path":"sprites/spr_blankTerminal/spr_blankTerminal.yy",},"order":3,},
     {"id":{"name":"spr_roof","path":"sprites/spr_roof/spr_roof.yy",},"order":13,},
     {"id":{"name":"scr_waveControl","path":"scripts/scr_waveControl/scr_waveControl.yy",},"order":4,},
+    {"id":{"name":"snd_enemyDamaged","path":"sounds/snd_enemyDamaged/snd_enemyDamaged.yy",},"order":8,},
     {"id":{"name":"spr_playerCharacter_walk","path":"sprites/spr_playerCharacter_walk/spr_playerCharacter_walk.yy",},"order":6,},
     {"id":{"name":"path_Meteor1","path":"paths/path_Meteor1/path_Meteor1.yy",},"order":0,},
     {"id":{"name":"obj_floorBorderUpper","path":"objects/obj_floorBorderUpper/obj_floorBorderUpper.yy",},"order":6,},
