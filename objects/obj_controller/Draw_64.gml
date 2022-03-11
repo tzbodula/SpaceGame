@@ -67,10 +67,7 @@ if !global.insideShip{
 	
 	draw_set_colour(make_colour_rgb(255, 184, 51));
     draw_text(100, 650, "Energy Consumption Score: " + string(floor(global.energyConsumptionScore)));
-	
-	if global.isWaveOver == true and !global.insideShip {
-		draw_text(room_width/2, room_height/2, "Press X to proceed to next wave")
-	}
+
 }
 
 

@@ -1,3 +1,8 @@
+shader_set(sha_emergency);
+draw_self();
+shader_reset();
+
+
 /**
 *
 * This script runs whenever an instance of obj_playerShip is created
