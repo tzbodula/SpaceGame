@@ -7,10 +7,12 @@ if !global.insideShip {
 if (global.isWaveOver == true and !global.insideShip) {
 	//make the room not persistent in order to reset variables back to 
 	//normal.
-	room_persistent = false
-	audio_stop_all()
-	global.insideShip = true
-	endWave()
+	if keyboard_check_pressed(ord("X")) {
+	    room_persistent = false
+	    audio_stop_all()
+	    global.insideShip = true
+	    endWave()
+	}
 }
 
 if ((global.fuel <= 0 or global.energy <= 0) and !global.insideShip) {
