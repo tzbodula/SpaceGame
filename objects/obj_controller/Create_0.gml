@@ -72,3 +72,4 @@ if global.tutorial {
 global.enemiesNearPlayer = 0
 global.shipSink = false
 global.insideShip = false
+global.energyConsumptionScore = 0

@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 if !global.tutorial {
+	global.energyConsumptionScore -= 50;
+	global.cash += 2;
     // add 200 points to the fuel
     var value = global.fuel + 200
     // if the fuel capcaity is exceeded then bring it back to normal levels

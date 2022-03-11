@@ -35,24 +35,28 @@ function checkForInput()
 	{
 		hspeed -= 2;
 		global.fuel -= 1;
+		global.energyConsumptionScore += .25;
 	}
 	// 	Rightward movement
 	if(playerControls.right() && canMove()) 
 	{
 		hspeed += 2;
 		global.fuel--;
+		global.energyConsumptionScore += .25;
 	}
 	// 	Upward movement
 	if(playerControls.up() && canMove()) 
 	{
 		vspeed -= 2;
 		global.fuel--;
+		global.energyConsumptionScore += .25;
 	}
 	// 	Downward movement
 	if(playerControls.down() && canMove()) 
 	{
 		vspeed += 2;
 		global.fuel--;
+		global.energyConsumptionScore += .25;
 	}
 	// Rotate left
 	if(playerControls.rotateLeft() && canRotate())
@@ -112,7 +116,8 @@ function checkForInput()
 					global.energy -= inst.energyPerShot;
 					
 					// Alarm for small cannon fire rate
-					alarm[1] = room_speed * global.smallShotInterval;	
+					alarm[1] = room_speed * global.smallShotInterval;
+					global.energyConsumptionScore += .25;
 				}
 				
 				break;
@@ -144,7 +149,8 @@ function checkForInput()
 						global.energy -= bigBullet.energyPerShot;
 					
 						// Alarm for big cannon fire rate
-						alarm[2] = room_speed * global.bigShotInterval;	
+						alarm[2] = room_speed * global.bigShotInterval;
+						global.energyConsumptionScore += 1;
 					}
 					
 					break;
