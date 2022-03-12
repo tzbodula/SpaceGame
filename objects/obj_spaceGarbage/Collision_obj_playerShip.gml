@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+audio_play_sound(snd_garbageCollection, 1, false);
+
 if !global.tutorial {
 	global.energyConsumptionScore -= 10;
 	global.cash += .5;

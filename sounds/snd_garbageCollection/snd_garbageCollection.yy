@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.35,
+  "volume": 0.33,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_wave3.wav",
-  "duration": 116.535919,
+  "soundFile": "snd_garbageCollection.mp3",
+  "duration": 1.257075,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_wave3",
+  "name": "snd_garbageCollection",
   "tags": [],
   "resourceType": "GMSound",
 }

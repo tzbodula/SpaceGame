@@ -64,6 +64,7 @@ else {
 	
 	if canShoot and instance_exists(obj_playerShip) and inRoom {
 	canShoot = false
+	audio_play_sound(snd_enemyShoot, 1, false);
 	instance_create_layer(x, y, "Instances", obj_enemyLaser)
 	alarm[2] = laserInterval
     }

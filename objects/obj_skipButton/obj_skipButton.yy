@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_skipButton",
-    "path": "sprites/spr_temp_skipButton/spr_temp_skipButton.yy",
+    "name": "spr_skipButton",
+    "path": "sprites/spr_skipButton/spr_skipButton.yy",
   },
   "solid": false,
   "visible": true,
