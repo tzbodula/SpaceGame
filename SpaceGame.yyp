@@ -106,7 +106,7 @@
     {"id":{"name":"rm_introScene","path":"rooms/rm_introScene/rm_introScene.yy",},"order":5,},
     {"id":{"name":"spr_enemy2Collision","path":"sprites/spr_enemy2Collision/spr_enemy2Collision.yy",},"order":4,},
     {"id":{"name":"snd_eeriemusic","path":"sounds/snd_eeriemusic/snd_eeriemusic.yy",},"order":1,},
-    {"id":{"name":"spr_temp_battleField_button","path":"sprites/spr_temp_battleField_button/spr_temp_battleField_button.yy",},"order":21,},
+    {"id":{"name":"spr_battleField_button","path":"sprites/spr_battleField_button/spr_battleField_button.yy",},"order":21,},
     {"id":{"name":"snd_garbageCollection","path":"sounds/snd_garbageCollection/snd_garbageCollection.yy",},"order":11,},
     {"id":{"name":"obj_enemy1Death","path":"objects/obj_enemy1Death/obj_enemy1Death.yy",},"order":17,},
     {"id":{"name":"spr_playerCharacter_front","path":"sprites/spr_playerCharacter_front/spr_playerCharacter_front.yy",},"order":5,},

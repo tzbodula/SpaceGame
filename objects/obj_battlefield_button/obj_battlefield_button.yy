@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_battleField_button",
-    "path": "sprites/spr_temp_battleField_button/spr_temp_battleField_button.yy",
+    "name": "spr_battleField_button",
+    "path": "sprites/spr_battleField_button/spr_battleField_button.yy",
   },
   "solid": false,
   "visible": true,
