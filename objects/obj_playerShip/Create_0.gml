@@ -1,8 +1,3 @@
-shader_set(sha_emergency);
-draw_self();
-shader_reset();
-
-
 /**
 *
 * This script runs whenever an instance of obj_playerShip is created
@@ -77,3 +72,5 @@ alarm[0] = room_speed*global.energyUseInterval;
 
 // Alarm for big cannon fire rate
 //alarm[2] = room_speed * global.bigShotInterval;
+// counter for shader
+counter = 0

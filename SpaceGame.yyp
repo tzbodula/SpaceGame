@@ -18,7 +18,6 @@
     {"id":{"name":"spr_powerBar","path":"sprites/spr_powerBar/spr_powerBar.yy",},"order":3,},
     {"id":{"name":"obj_interWaveRoomController","path":"objects/obj_interWaveRoomController/obj_interWaveRoomController.yy",},"order":15,},
     {"id":{"name":"obj_enemyHugeBoi","path":"objects/obj_enemyHugeBoi/obj_enemyHugeBoi.yy",},"order":14,},
-    {"id":{"name":"sha_emergency","path":"shaders/sha_emergency/sha_emergency.yy",},"order":0,},
     {"id":{"name":"obj_enemy2Spawner","path":"objects/obj_enemy2Spawner/obj_enemy2Spawner.yy",},"order":1,},
     {"id":{"name":"spr_cockpitSign","path":"sprites/spr_cockpitSign/spr_cockpitSign.yy",},"order":2,},
     {"id":{"name":"spr_shopSign","path":"sprites/spr_shopSign/spr_shopSign.yy",},"order":14,},

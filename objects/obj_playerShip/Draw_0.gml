@@ -3,7 +3,7 @@
 if global.healthPoints < 50 {
 	shader_set(shd_lowHP);
 	var timeElapsed = shader_get_uniform(shd_lowHP, "gameTime");
-    shader_set_uniform_f(timeElapsed, current_time/60);
+    shader_set_uniform_f(timeElapsed, counter);
 } else {
 	shader_set(shd_normalHP);
 }

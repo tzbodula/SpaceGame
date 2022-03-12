@@ -186,3 +186,12 @@ function checkForInput()
 
 
 checkForInput();
+// health lower than 50 then start the counter
+if global.healthPoints < 50 {
+	counter += 1
+}
+
+// reset counter ever so often (avoids overflows)
+if counter > 60 {
+	counter = 0
+}
