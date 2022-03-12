@@ -2,4 +2,4 @@
 room_persistent = false
 //stop the music in order to avoid ear drum destruction
 audio_stop_all()
-scr_resetGame()
+instance_create_layer(x, y, "Instances", obj_playerShipDeath)
