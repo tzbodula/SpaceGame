@@ -9,12 +9,12 @@ if counter % 60 == 0 {
 	    //made it decrement by 20 for testing purposes
 	//if there were enemies in the vicinity, decrease health by 5
 	if global.enemiesNearPlayer > 0 {
-		var damageDiff = global.shields - 5
+		var damageDiff = global.shields - 2
 		if damageDiff < 0 {
 			global.shields = 0
 			global.healthPoints += damageDiff
 		} else {
-			global.shields -= 5
+			global.shields -= 2
 		}
 	}
 }
