@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_TEMP_nextRound",
-    "path": "sprites/spr_TEMP_nextRound/spr_TEMP_nextRound.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Game Over",
+    "path": "folders/Objects/Game Over.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_TEMP_nextRoundButton",
+  "name": "obj_endingController",
   "tags": [],
   "resourceType": "GMObject",
 }

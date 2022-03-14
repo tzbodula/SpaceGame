@@ -46,7 +46,7 @@ if !global.insideShip and instance_exists(obj_playerShip) {
     draw_text_transformed(15, 5, "WAVE", 2.5, 2.5, 0);
     draw_set_colour(c_white);
     // Counts literal wave difficulty level, not round that player is currently in
-    draw_text_transformed(155, 5, string(global.waveStage) , 2.5, 2.5, 0);
+    draw_text_transformed(155, 5, string(global.wave) , 2.5, 2.5, 0);
 
     // Check selected ammo type
     if(obj_playerShip.ammoType == AmmoTypes.SMALL)
@@ -69,8 +69,16 @@ if !global.insideShip and instance_exists(obj_playerShip) {
     draw_text(100, 650, "Energy Consumption Score: " + string(floor(global.energyConsumptionScore)));
 	
 	if global.isWaveOver == true and !global.insideShip {
-		draw_text(room_width/2, room_height/2, "Press X to proceed to next wave")
+		if (global.wave != global.totalWaves) 
+			draw_text(room_width/2, room_height/2, "Press X to proceed to next wave")
+		else if (global.wave == global.totalWaves) 
+			// Different text if player is about to finish game
+			draw_text(room_width/2, room_height/2, "Press X to continue...")
 	}
-}
+		
+		
+	}
+
+
 
 

@@ -111,6 +111,9 @@ function checkForInput()
 					// Spawn bullet object
 					inst = instance_create_layer(x,y,"instances",obj_bullet);
 					
+					// Count bullets fired
+					global.totalSmallBulletsFired++
+					
 					// Subtract from small ammo remaining and energy
 					global.smallAmmo--;
 					global.energy -= inst.energyPerShot;
@@ -132,6 +135,9 @@ function checkForInput()
 					
 						// Spawn bullet object
 						bigBullet = instance_create_layer(x,y,"instances",obj_bullet);
+						
+						// Count bullets fired
+						global.totalBigBulletsFired++
 						
 						// Update instance variables
 						with(bigBullet)

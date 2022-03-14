@@ -1,2 +1,11 @@
 global.tutorial = false
 global.tutorial2 = false
+global.gameEnd = false
+global.gameWon = false
+global.totalKills = 0
+global.totalSmallBulletsFired = 0
+global.totalBigBulletsFired = 0
+global.playerDead = false
+global.gameStart = false
+global.wave = 0
+global.spaceGarbageCollected = 0
