@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_titleScreenButton","path":"sprites/spr_titleScreenButton/spr_titleScreenButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_titleScreenButton",
     "tags": [],
     "resourceType": "GMSequence",

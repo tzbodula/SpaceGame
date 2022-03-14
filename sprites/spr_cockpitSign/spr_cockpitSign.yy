@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cockpitSign","path":"sprites/spr_cockpitSign/spr_cockpitSign.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cockpitSign",
     "tags": [],
     "resourceType": "GMSequence",

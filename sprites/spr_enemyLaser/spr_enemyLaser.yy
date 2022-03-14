@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemyLaser","path":"sprites/spr_enemyLaser/spr_enemyLaser.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemyLaser",
     "tags": [],
     "resourceType": "GMSequence",

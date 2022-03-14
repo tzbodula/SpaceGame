@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_redTerminal","path":"sprites/spr_redTerminal/spr_redTerminal.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_redTerminal",
     "tags": [],
     "resourceType": "GMSequence",
