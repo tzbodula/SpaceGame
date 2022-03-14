@@ -9,3 +9,13 @@ if countDown {
 if counter % 60 == 0 {
 	seconds -= 1
 }
+
+// Check if player is in ship
+if global.insideShip 
+{
+	visible = true;
+}
+else {
+	visible = false;
+}
+
