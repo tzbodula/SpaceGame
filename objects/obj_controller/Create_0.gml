@@ -33,7 +33,7 @@ pbarEndX = pbarStartX + powerBarLen;		// Power bar ending X coordinate
 
 // Resource values
 global.healthPoints = 100;			//	Set player health
-global.cash = 1000;					//	Player money
+global.cash = 100;					//	Player money
 global.points = 0;
 global.wave = 1;
 global.shields = 50;				//	Player shields
