@@ -295,7 +295,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerShipDeath","path":"sprites/spr_playerShipDeath/spr_playerShipDeath.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_playerShipDeath",
     "tags": [],
     "resourceType": "GMSequence",

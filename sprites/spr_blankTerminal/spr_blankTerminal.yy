@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blankTerminal","path":"sprites/spr_blankTerminal/spr_blankTerminal.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_blankTerminal",
     "tags": [],
     "resourceType": "GMSequence",

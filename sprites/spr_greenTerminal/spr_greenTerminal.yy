@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_greenTerminal","path":"sprites/spr_greenTerminal/spr_greenTerminal.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_greenTerminal",
     "tags": [],
     "resourceType": "GMSequence",

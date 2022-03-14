@@ -7,5 +7,5 @@ countDown = true
 // give player 25 seconds
 persistent = true;
 seconds = 25
-alarm[0] = seconds*room_speed;
+alarm[0] = seconds*room_speed + 120;
 

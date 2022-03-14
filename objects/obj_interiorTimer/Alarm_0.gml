@@ -4,12 +4,11 @@
 countDown = false
 // set counter to some uneven number
 counter = 61
+global.insideShip = false
+global.isWaveOver = false
 // stop audio
 audio_stop_all()
 persistent = false;
 room_persistent = false;
 // transition to outerspace
-global.insideShip = false
-global.isWaveOver = false
-
-room_goto(rm_outerSpace); 
+room_goto(rm_outerSpace)

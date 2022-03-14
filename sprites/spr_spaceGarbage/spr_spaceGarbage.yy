@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_spaceGarbage","path":"sprites/spr_spaceGarbage/spr_spaceGarbage.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_spaceGarbage",
     "tags": [],
     "resourceType": "GMSequence",

@@ -6,7 +6,7 @@ if countDown {
 	counter += 1
 }
 // every 60 frames (every second) decrement seconds by 1
-if counter % 60 == 0 {
+if counter % 60 == 0 and seconds != 0 {
 	seconds -= 1
 }
 
