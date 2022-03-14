@@ -10,3 +10,4 @@ global.gameStart = false
 global.wave = 0
 global.spaceGarbageCollected = 0
 global.credits = false
+global.totalCash = 0

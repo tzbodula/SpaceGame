@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_upgradeButton","path":"sprites/spr_upgradeButton/spr_upgradeButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_upgradeButton",
     "tags": [],
     "resourceType": "GMSequence",

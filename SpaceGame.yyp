@@ -161,7 +161,6 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
-  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
@@ -221,9 +220,9 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Broken Console Bold Shadow.otf","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2022.2.1.618",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.5",
   "name": "SpaceGame",
   "tags": [],
   "resourceType": "GMProject",

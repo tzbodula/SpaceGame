@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_temp_shipInteriorButton","path":"sprites/spr_temp_shipInteriorButton/spr_temp_shipInteriorButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_temp_shipInteriorButton",
     "tags": [],
     "resourceType": "GMSequence",

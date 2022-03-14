@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shieldBar","path":"sprites/spr_shieldBar/spr_shieldBar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shieldBar",
     "tags": [],
     "resourceType": "GMSequence",

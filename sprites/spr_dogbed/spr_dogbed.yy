@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_dogbed","path":"sprites/spr_dogbed/spr_dogbed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_dogbed",
     "tags": [],
     "resourceType": "GMSequence",

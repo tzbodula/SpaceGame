@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_TEMP_nextRound","path":"sprites/spr_TEMP_nextRound/spr_TEMP_nextRound.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_TEMP_nextRound",
     "tags": [],
     "resourceType": "GMSequence",

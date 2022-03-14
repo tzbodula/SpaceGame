@@ -295,7 +295,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy3Death","path":"sprites/spr_enemy3Death/spr_enemy3Death.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy3Death",
     "tags": [],
     "resourceType": "GMSequence",
