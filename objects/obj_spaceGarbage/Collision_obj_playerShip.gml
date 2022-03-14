@@ -26,3 +26,4 @@ if !global.tutorial {
 	global.energy += 20000
 }
 instance_destroy()
+global.spaceGarbageCollected++

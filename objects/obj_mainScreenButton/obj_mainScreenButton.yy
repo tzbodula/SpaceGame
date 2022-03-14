@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_playerShip",
-    "path": "sprites/spr_playerShip/spr_playerShip.yy",
+    "name": "spr_mainScreenButton",
+    "path": "sprites/spr_mainScreenButton/spr_mainScreenButton.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title Screen",
-    "path": "folders/Objects/Title Screen.yy",
+    "name": "Game Over",
+    "path": "folders/Objects/Game Over.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_temp",
+  "name": "obj_mainScreenButton",
   "tags": [],
   "resourceType": "GMObject",
 }
