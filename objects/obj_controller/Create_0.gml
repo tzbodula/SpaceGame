@@ -85,7 +85,7 @@ global.playerUpgrades = {
 		//	 Upgrade variables	//
 		
 		healthCapacity: {
-			cost: 2,
+			cost: 10,
 			multiplier: 1.1,
 			nPurchased: 0,
 		},
@@ -179,8 +179,6 @@ global.playerUpgrades = {
 			else {
 				show_debug_message("No cash? Upgrade cost = $" + string(upgrade.cost) + "\tAvailable balance = $" + string(global.cash));
 			}
-			
-			//show_debug_message(string(upgradeName) + " cost = $" + string(upgrade.cost));
 		},
 		
 };
