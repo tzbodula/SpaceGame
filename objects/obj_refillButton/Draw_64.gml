@@ -9,7 +9,9 @@ switch(self.name)
 {
 	case "refillAmmo":
 		// Draw name of upgrade
-		draw_text_transformed(name_startX, name_startY, "Refill Ammo", 1.2, 1.2, 0);
+		draw_text_transformed(name_startX-5, name_startY-10, 
+		"Refill Ammo\nSmall Ammo: " + string(global.smallAmmo) + "/" + string(global.smallAmmoCapacity) + "\nBig Ammo: " + string(global.bigAmmo) + "/" + string(global.bigAmmoCapacity), 
+		0.75, 0.75, 0);
 
 		// Compute cost of upgrade
 		var cost = (((global.bigAmmoCapacity - global.bigAmmo) + (global.smallAmmoCapacity - global.smallAmmo))/2) + 1; // + 1 so it's always at least 1
@@ -21,7 +23,7 @@ switch(self.name)
 		
 	case "refillEnergy":
 		// Draw name of upgrade
-		draw_text_transformed(name_startX+name_xoffset, name_startY, "Refill Energy", 1.2, 1.2, 0);
+		draw_text_transformed(name_startX+name_xoffset, name_startY-10, "Refill Energy:\n" + string(global.energy) + "/" + string(global.energyCapacity), 1, 1, 0);
 
 		// Compute cost of upgrade
 		var cost = ceil((global.energyCapacity - global.energy)/global.energy) + 1;
@@ -33,7 +35,7 @@ switch(self.name)
 		
 	case "refillFuel":
 		// Draw name of upgrade
-		draw_text_transformed((name_startX+name_xoffset)*1.38, name_startY, "Refill Fuel", 1.2, 1.2, 0);
+		draw_text_transformed((name_startX+name_xoffset)*1.38, name_startY-10, "Refill Fuel:\n" + string(global.fuel) + "/" + string(global.fuelCapacity), 1, 1, 0);
 
 		// Compute cost of upgrade
 		var cost = ceil((global.fuelCapacity - global.fuel)/global.fuel) + 1;
@@ -44,7 +46,9 @@ switch(self.name)
 		break;
 	case "refillShields":
 		// Draw name of upgrade
-		draw_text_transformed((name_startX+name_xoffset)*1.7, name_startY, "Refill Health/Sheilds", 0.75, 0.75, 0);
+		draw_text_transformed((name_startX+name_xoffset)*1.7, name_startY-10,
+		"Refill Health/Shields\nHealth: " + string(global.healthPoints) + "/" + string(global.healthCapacity) + "\nShields: " + string(global.shields) + "/" + string(global.shieldCapacity), 
+		0.75, 0.75, 0);
 
 		// Compute cost of upgrade
 		var cost = ceil((global.healthCapacity - global.healthPoints)/global.healthPoints) + ceil((global.shieldCapacity - global.shields)/global.shields) +  1;
