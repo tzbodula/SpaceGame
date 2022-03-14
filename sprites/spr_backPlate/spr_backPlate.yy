@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_backPlate","path":"sprites/spr_backPlate/spr_backPlate.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_backPlate",
     "tags": [],
     "resourceType": "GMSequence",

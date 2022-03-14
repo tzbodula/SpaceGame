@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_photoFrame","path":"sprites/spr_photoFrame/spr_photoFrame.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_photoFrame",
     "tags": [],
     "resourceType": "GMSequence",

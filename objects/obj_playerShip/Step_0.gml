@@ -109,14 +109,20 @@ function checkForInput()
 					canShootSmall = false;
 					
 					// Spawn bullet object
-					inst = instance_create_layer(x,y,"instances",obj_bullet);
+					smallBullet = instance_create_layer(x,y,"instances",obj_bullet);
+					
+					// Set bullet properties
+					with(smallBullet)
+					{
+						damage = global.smallAmmoDamage;	
+					}
 					
 					// Count bullets fired
 					global.totalSmallBulletsFired++
 					
 					// Subtract from small ammo remaining and energy
 					global.smallAmmo--;
-					global.energy -= inst.energyPerShot;
+					global.energy -= smallBullet.energyPerShot;
 					
 					// Alarm for small cannon fire rate
 					alarm[1] = room_speed * global.smallShotInterval;
@@ -142,12 +148,12 @@ function checkForInput()
 						// Update instance variables
 						with(bigBullet)
 						{	
-							energyPerShot *= 3;			//	Increase energy consumed per shot
-							damage *= 2;				//	Increase damage
-							speed /= 1.35;				//	Reduce speed by 35%
-							image_index = 2;			//	This currently doesn't seem to work
-							image_xscale = 3;			//	Increase width 
-							image_yscale = 3;			//	Increase height
+							energyPerShot *= 3;				//	Increase energy consumed per shot
+							damage = global.bigAmmoDamage;	//	Increase damage
+							speed /= 1.35;					//	Reduce speed by 35%
+							image_index = 2;				//	This currently doesn't seem to work
+							image_xscale = 3;				//	Increase width 
+							image_yscale = 3;				//	Increase height
 						}
 					
 						// Subtract from big ammo remaining and energy

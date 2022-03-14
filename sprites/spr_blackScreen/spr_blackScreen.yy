@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_blackScreen","path":"sprites/spr_blackScreen/spr_blackScreen.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_blackScreen",
     "tags": [],
     "resourceType": "GMSequence",

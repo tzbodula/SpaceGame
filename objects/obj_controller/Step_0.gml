@@ -1,5 +1,5 @@
 // Each step, check if the wave has concluded 
-if !global.insideShip {
+if !global.insideShip{
     waveStatus(); 
 }
 
@@ -21,6 +21,9 @@ if ((global.fuel <= 0 or global.energy <= 0) and !global.insideShip) {
 	global.insideShip = true
 	room_goto(rm_shipInterior_DuringWave)
 }
+
+// Check for cheat code entry
+checkForCheatCode();
 
 if global.shipSink and !global.insideShip{
 	global.insideShip = false

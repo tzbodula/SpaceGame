@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_roof","path":"sprites/spr_roof/spr_roof.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_roof",
     "tags": [],
     "resourceType": "GMSequence",

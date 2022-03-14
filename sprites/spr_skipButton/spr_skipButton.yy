@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_skipButton","path":"sprites/spr_skipButton/spr_skipButton.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_skipButton",
     "tags": [],
     "resourceType": "GMSequence",

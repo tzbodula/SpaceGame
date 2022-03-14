@@ -17,7 +17,6 @@ else {
 	instance_activate_object(obj_interiorTimer)
 	if global.wave == 0
 		audio_play_sound(snd_inBetweenWaves, 1, false)
-	
 }
 
 // UNCOMMENT FOR FINAL GAME

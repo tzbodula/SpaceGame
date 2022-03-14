@@ -295,7 +295,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy3Collision","path":"sprites/spr_enemy3Collision/spr_enemy3Collision.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_enemy3Collision",
     "tags": [],
     "resourceType": "GMSequence",
