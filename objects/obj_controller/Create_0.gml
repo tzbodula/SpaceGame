@@ -62,7 +62,7 @@ global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
 
 
 // By default, wave is still continuing 
-global.wave = 3;
+global.wave = 1;
 global.totalWaves = 3;				// Total number of distinct waves
 global.isWaveOver = false;
 global.gameStart = true;
