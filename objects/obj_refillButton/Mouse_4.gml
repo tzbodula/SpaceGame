@@ -86,9 +86,24 @@ switch(self.name)
 		break;
 		
 	case "upgradeShields":
+		// Check if hp and shields are at capacity
+		max_hp = (global.healthPoints == global.healthCapacity);
+		max_shields = (global.shields == global.shieldCapacity);
+		
 		// Purchase upgrade
 		global.playerUpgrades.buy("healthCapacity");
 		global.playerUpgrades.buy("shieldCapacity");
+		
+		//Check if hp and shields should be set to new max
+		if(max_hp)
+		{
+			global.healthPoints = global.healthCapacity;	
+		}
+		if(max_shields)
+		{
+			global.shields = global.shieldCapacity;
+		}
+		
 		break;
 }
 
