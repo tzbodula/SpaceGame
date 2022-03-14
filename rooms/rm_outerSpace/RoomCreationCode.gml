@@ -4,7 +4,6 @@ if global.tutorial {
 	//instance_deactivate_object(obj_playerStats)
 	instance_activate_object(obj_playerShip)
 	instance_activate_object(obj_tutorialController2)
-	
 	global.shields = 5000;				//	Player shields
 	global.fuel = 200000;				//	Ship fuel
 	global.energy = 200000;				//	Ship energy
@@ -15,7 +14,6 @@ else if global.gameEnd {
 	instance_deactivate_all(true)
 	instance_activate_object(obj_spaceMeteor)
 	instance_activate_object(obj_spaceMeteor2)
-	//instance_create_layer(10, 10, "Instances", obj_endingController)
 	instance_activate_object(obj_endingController)
 	instance_activate_object(obj_mainScreenButton)
 	instance_activate_object(obj_playerStats)
@@ -25,11 +23,20 @@ else if global.gameEnd {
 	
 }
 
+else if global.credits {
+	instance_deactivate_all(true)
+	instance_activate_object(obj_spaceMeteor)
+	instance_activate_object(obj_spaceMeteor2)
+	instance_activate_object(obj_creditsController)
+	instance_activate_object(obj_mainScreenButton)
+}
+
 else {
 	instance_deactivate_object(obj_tutorialController2)
 	instance_deactivate_object(obj_endingController)
 	instance_deactivate_object(obj_mainScreenButton)
 	instance_deactivate_object(obj_playerStats)
+	instance_deactivate_object(obj_creditsController)
 	// Set intensity level based on wave #
 	//setIntensity()
 }

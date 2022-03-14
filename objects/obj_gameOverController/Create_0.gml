@@ -23,7 +23,4 @@ else if global.gameWon == false {
 
 pause = textSpeed
 
-// Reduce the timeline speed to match real life time
-//timeline_speed = 1/(room_speed-30)
-//timeline_running = true
 

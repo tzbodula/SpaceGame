@@ -9,3 +9,4 @@ global.playerDead = false
 global.gameStart = false
 global.wave = 0
 global.spaceGarbageCollected = 0
+global.credits = false
