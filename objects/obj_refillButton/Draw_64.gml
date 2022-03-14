@@ -51,7 +51,7 @@ switch(self.name)
 		0.75, 0.75, 0);
 
 		// Compute cost of upgrade
-		var cost = ceil((global.healthCapacity - global.healthPoints)/global.healthPoints) + ceil((global.shieldCapacity - global.shields)/global.shields) +  1;
+		var cost = ceil((global.healthCapacity - global.healthPoints)/(global.healthPoints+1)) + ceil((global.shieldCapacity - global.shields)/(global.shields+1)) +  1;
 	
 		// Draw cost
 		draw_text((cost_startX+name_xoffset)*1.7, cost_startY, "Cost: $" + string(cost));

@@ -54,7 +54,7 @@ switch(self.name)
 		
 	case "refillShields":
 		// Compute cost of upgrade
-		var cost = ceil((global.healthCapacity - global.healthPoints)/global.healthPoints) + ceil((global.shieldCapacity - global.shields)/global.shields) +  1;
+		var cost = (ceil((global.healthCapacity - global.healthPoints)/(global.healthPoints+1)) + ceil((global.shieldCapacity - global.shields)/(global.shields+1))) / 5;
 		
 		// Check if player has enough money
 		if(global.cash >= cost)
@@ -62,8 +62,9 @@ switch(self.name)
 			// Subtract cost from player cash
 			global.cash -= cost;
 			
-			// Refill player's health and sheilds
+			// Refill player's health and shields
 			global.healthPoints = global.healthCapacity;
+			global.shields = global.shieldCapacity;
 		}
 		
 		break;
