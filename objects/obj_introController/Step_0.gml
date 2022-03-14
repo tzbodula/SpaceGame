@@ -1,16 +1,12 @@
-
-// Walk left
-if keyboard_check(ord("A")) and instance_place(x, y, obj_floor){
-	sprite_index = spr_playerCharacter_walk
-	//alarm[0] = 20 // 1/3 of a second
-	x += -move_speed
-	image_xscale = -1
-}
-
-// Walk right
-if keyboard_check(ord("D")) and instance_place(x, y, obj_floor) {
-	sprite_index = spr_playerCharacter_walk
-	//alarm[0] = 20 // 1/3 of a second
-	x += move_speed
-	image_xscale = 1
+if (mouse_check_button_pressed(mb_left))			
+{			
+	xx = mouse_x
+	yy = mouse_y
+																			
+	if (position_meeting(xx, yy, obj_checkCredits)) {
+		global.credits = true
+		room_goto(rm_outerSpace)
+	
+	}
+													
 }

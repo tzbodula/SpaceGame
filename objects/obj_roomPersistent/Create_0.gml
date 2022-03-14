@@ -2,5 +2,5 @@
 // You can write your code in this editor
 room_persistent = true
 
-if global.gameEnd
+if global.gameEnd or global.credits
 	room_persistent = false
