@@ -1,4 +1,4 @@
-// While there are enemies yet to be spawned
+// If there is at least 1 spawn remaining
 if spawnsRemaining != 0 {
 	// Spawn enemy
 	spawnEnemy(enemyType)

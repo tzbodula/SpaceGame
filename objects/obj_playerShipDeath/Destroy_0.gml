@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_resetGame()
+global.gameWon = false
+
+if global.tutorial == false 
+	room_goto(rm_gameOver)

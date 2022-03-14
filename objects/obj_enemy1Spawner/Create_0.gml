@@ -1,5 +1,5 @@
-// Change spawnInterval based on difficulty level
-// difficulty.player_difficulty()
-spawnsRemaining *= global.waveStage;
-spawnInterval *= 1/global.waveStage;
+// Change spawnsRemaining and spawnInterval based on current wave #
+
+//self.spawnsRemaining *= global.wave;
+//self.spawnInterval *= 1/global.wave;
 alarm[0] = spawnInterval

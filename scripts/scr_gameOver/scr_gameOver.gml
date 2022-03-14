@@ -1,12 +1,7 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_resetGame() {
-	global.waveNumberInStage = 1;		// What round the player has completed
-    global.waveStage = 1;				// "Intensity stage" of player 
-    global.wavesPerStage = 1;			// How many waves of difficulty X will occur per stage? (set to 1 for testing purposes)
+	global.wave = 1						// Current wave #
     global.totalWaves = 3;				// Total number of different waves
-    global.wave_spawnsRemaining_multiplier = global.waveStage;
-    global.wave_spawnInterval_multiplier = 1/global.waveStage;
+
 	// Resource values
     global.healthPoints = 100;			//	Set player health
     global.points = 0;					//	Instance variable for score
@@ -31,6 +26,7 @@ function scr_resetGame() {
     global.energyUseInterval = 1;		//	Automatically use 1 energy per second
     global.smallShotInterval = 0.33;	//	delay (in seconds) for small cannon
     global.bigShotInterval = 3;			//	delay (in seconds) for big cannon
+	
 	instance_destroy(obj_controller)
 	game_restart()
 }
