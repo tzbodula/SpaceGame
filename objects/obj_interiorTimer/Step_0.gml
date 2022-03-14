@@ -17,5 +17,6 @@ if global.insideShip
 }
 else {
 	visible = false;
+	room_persistent = false;
 }
 
