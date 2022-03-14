@@ -16,6 +16,7 @@ These conventions exist across the project:
 
 ##  Rooms
 The game has 4 rooms:
+- `rm_outerSpace` is  pixels. All other rooms are 1366x768 pixels which scales to a 1920x1080 play area.
 - `rm_titleScreen`: Title screen where player can choose between starting the tutorial or game.
 - `rm_introScene`: Text scene which leads to a tutorial where the player can learn about the context and controls of the game.
 - `rm_shipInterior`: Inside of player's ship, where they can repair, upgrade, and restart their ship.
@@ -23,7 +24,6 @@ The game has 4 rooms:
  
 ##  Sprites
 
-- The room(s) is/are 1920x1080 pixels
 - Player ship (`spr_playerShip`) is 128x128 pixels
 - Player character (`spr_playerCharacter`) for the interior ship view is 64x64 pixels
 - Enemy ship 1 (`spr_enemy1`) is 64x64 pixels
