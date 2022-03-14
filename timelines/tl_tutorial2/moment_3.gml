@@ -1,3 +1,3 @@
 with(obj_tutorialController2) {
-	text += "\n'W' = up"
+	text += "\n'A' = left"
 }

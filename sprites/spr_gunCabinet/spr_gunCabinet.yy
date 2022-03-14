@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gunCabinet","path":"sprites/spr_gunCabinet/spr_gunCabinet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gunCabinet",
     "tags": [],
     "resourceType": "GMSequence",

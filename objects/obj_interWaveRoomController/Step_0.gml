@@ -8,12 +8,20 @@ if counter % 60 == 0 {
 	seconds -= 1
 	    //made it decrement by 20 for testing purposes
 	//if there were enemies in the vicinity, decrease health by 5
-	if global.enemiesNearPlayer > 0
-	    damageObj(obj_playerShip, 5)
+	if global.enemiesNearPlayer > 0 {
+		var damageDiff = global.shields - 2
+		if damageDiff < 0 {
+			global.shields = 0
+			global.healthPoints += damageDiff
+		} else {
+			global.shields -= 2
+		}
+	}
 }
 
 // if healthPoints <= 0 then restart the game
-if global.healthPoints <=0 {
-	global.shipSink = true
-    room_goto(rm_outerSpace)
+if global.healthPoints <= 0 {
+	global.gameWon = false
+	room_goto(rm_gameOver)
+	
 }

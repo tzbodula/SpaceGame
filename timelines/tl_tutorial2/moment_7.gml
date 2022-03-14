@@ -1,3 +1,3 @@
 with(obj_tutorialController2) {
-	text += "\n'Q' = rotate left"
+	text += "\n'E' = rotate right"
 }

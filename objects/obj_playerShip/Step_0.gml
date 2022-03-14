@@ -35,24 +35,28 @@ function checkForInput()
 	{
 		hspeed -= 2;
 		global.fuel -= 1;
+		global.energyConsumptionScore += .25;
 	}
 	// 	Rightward movement
 	if(playerControls.right() && canMove()) 
 	{
 		hspeed += 2;
 		global.fuel--;
+		global.energyConsumptionScore += .25;
 	}
 	// 	Upward movement
 	if(playerControls.up() && canMove()) 
 	{
 		vspeed -= 2;
 		global.fuel--;
+		global.energyConsumptionScore += .25;
 	}
 	// 	Downward movement
 	if(playerControls.down() && canMove()) 
 	{
 		vspeed += 2;
 		global.fuel--;
+		global.energyConsumptionScore += .25;
 	}
 	// Rotate left
 	if(playerControls.rotateLeft() && canRotate())
@@ -113,12 +117,16 @@ function checkForInput()
 						damage = global.smallAmmoDamage;	
 					}
 					
+					// Count bullets fired
+					global.totalSmallBulletsFired++
+					
 					// Subtract from small ammo remaining and energy
 					global.smallAmmo--;
 					global.energy -= smallBullet.energyPerShot;
 					
 					// Alarm for small cannon fire rate
-					alarm[1] = room_speed * global.smallShotInterval;	
+					alarm[1] = room_speed * global.smallShotInterval;
+					global.energyConsumptionScore += .25;
 				}
 				
 				break;
@@ -134,7 +142,10 @@ function checkForInput()
 						// Spawn bullet object
 						bigBullet = instance_create_layer(x,y,"instances",obj_bullet);
 						
-						// Set bullet properties
+						// Count bullets fired
+						global.totalBigBulletsFired++
+						
+						// Update instance variables
 						with(bigBullet)
 						{	
 							energyPerShot *= 3;				//	Increase energy consumed per shot
@@ -150,7 +161,8 @@ function checkForInput()
 						global.energy -= bigBullet.energyPerShot;
 					
 						// Alarm for big cannon fire rate
-						alarm[2] = room_speed * global.bigShotInterval;	
+						alarm[2] = room_speed * global.bigShotInterval;
+						global.energyConsumptionScore += 1;
 					}
 					
 					break;
@@ -186,3 +198,12 @@ function checkForInput()
 
 
 checkForInput();
+// health lower than 50 then start the counter
+if global.healthPoints < 50 {
+	counter += 1
+}
+
+// reset counter ever so often (avoids overflows)
+if counter > 60 {
+	counter = 0
+}

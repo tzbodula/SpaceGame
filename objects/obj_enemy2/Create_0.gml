@@ -10,3 +10,4 @@ canShoot = true
 laserInterval = laserInterval - (global.wave * 8)
 nearPlayer = false
 alarm[0] = 50
+maxHP = healthPoints

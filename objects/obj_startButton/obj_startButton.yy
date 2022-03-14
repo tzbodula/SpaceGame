@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_startButton",
-    "path": "sprites/spr_temp_startButton/spr_temp_startButton.yy",
+    "name": "spr_startButton",
+    "path": "sprites/spr_startButton/spr_startButton.yy",
   },
   "solid": false,
   "visible": true,

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_energyTube","path":"sprites/spr_energyTube/spr_energyTube.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_energyTube",
     "tags": [],
     "resourceType": "GMSequence",

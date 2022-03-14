@@ -1,4 +1,4 @@
 with(obj_tutorialController2) {
 	text = ""
-	text += "\n,Ah, there you are!"
+	text += "\nAh, there you are!"
 }

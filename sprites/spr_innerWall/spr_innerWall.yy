@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_innerWall","path":"sprites/spr_innerWall/spr_innerWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_innerWall",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_titleScreen_button",
-    "path": "sprites/spr_temp_titleScreen_button/spr_temp_titleScreen_button.yy",
+    "name": "spr_titleScreenButton",
+    "path": "sprites/spr_titleScreenButton/spr_titleScreenButton.yy",
   },
   "solid": false,
   "visible": true,

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shopSign","path":"sprites/spr_shopSign/spr_shopSign.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_shopSign",
     "tags": [],
     "resourceType": "GMSequence",

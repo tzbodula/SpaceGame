@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tempMeteor","path":"sprites/spr_tempMeteor/spr_tempMeteor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tempMeteor",
     "tags": [],
     "resourceType": "GMSequence",

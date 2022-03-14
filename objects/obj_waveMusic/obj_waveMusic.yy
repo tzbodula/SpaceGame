@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Outer Space",
-    "path": "folders/Objects/Outer Space.yy",
+    "name": "Ship Interior",
+    "path": "folders/Objects/Ship Interior.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_waveMusic",
