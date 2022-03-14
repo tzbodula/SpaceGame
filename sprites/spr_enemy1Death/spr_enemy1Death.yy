@@ -295,7 +295,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy1Death","path":"sprites/spr_enemy1Death/spr_enemy1Death.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_enemy1Death",
     "tags": [],
     "resourceType": "GMSequence",

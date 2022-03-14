@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_shopTerminal","path":"sprites/spr_shopTerminal/spr_shopTerminal.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_shopTerminal",
     "tags": [],
     "resourceType": "GMSequence",

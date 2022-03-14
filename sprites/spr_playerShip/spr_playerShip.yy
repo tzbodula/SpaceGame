@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerShip","path":"sprites/spr_playerShip/spr_playerShip.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_playerShip",
     "tags": [],
     "resourceType": "GMSequence",
