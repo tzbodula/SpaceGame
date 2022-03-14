@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_powerBar","path":"sprites/spr_powerBar/spr_powerBar.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_powerBar",
     "tags": [],
     "resourceType": "GMSequence",

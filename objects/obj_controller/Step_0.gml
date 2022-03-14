@@ -1,5 +1,5 @@
 // Each step, check if the wave has concluded 
-if !global.insideShip {
+if !global.insideShip{
     waveStatus(); 
 }
 

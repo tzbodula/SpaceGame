@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_whiteBox","path":"sprites/spr_whiteBox/spr_whiteBox.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_whiteBox",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,6 +1,4 @@
 // State variables to store which cheats are currently enabled
-invincibility = false;
-
 
 // Check for cheat code entry
 function checkForCheatCode(){
@@ -9,7 +7,7 @@ function checkForCheatCode(){
 	if(keyboard_check(vk_control) && keyboard_check_pressed(ord("I")))
 	{
 		// Check if invincibility is enabled
-		if(!invincibility)
+		if(!global.invincibility)
 		{
 			// Set player's health and shields to infinity
 			global.healthPoints = infinity;
@@ -17,7 +15,7 @@ function checkForCheatCode(){
 			global.shieldCapacity = infinity;
 			
 			// Update invincibility state
-			invincibility = true;
+			global.invincibility = true;
 		}
 		else {
 			// Revert to initial starting stats
@@ -26,13 +24,13 @@ function checkForCheatCode(){
 			global.shieldCapacity = global.shields;
 			
 			// Update invincibility state
-			invincibility = false;
+			global.invincibility = false;
 		}
 	}
 	
 	// Test code
 	if(keyboard_check(vk_control) && keyboard_check_pressed(ord("T")))
 	{
-		global.playerUpgrades.buy("energyCapacity");
+		room_goto(rm_shop);
 	}
 }

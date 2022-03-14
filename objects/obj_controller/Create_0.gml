@@ -94,49 +94,37 @@ global.playerUpgrades = {
 		//	 Upgrade variables	//
 		
 		healthCapacity: {
-			cost: 10,
+			cost: 5,
 			multiplier: 1.1,
 			nPurchased: 0,
 		},
 		
 		shieldCapacity: {
-			cost: 20,
+			cost: 5,
 			multiplier: 1.15,
 			nPurchased: 0,
 		},
 		
 		energyCapacity: {
-			cost: 20,
+			cost: 5,
 			multiplier: 1.15,
 			nPurchased: 0,
 		},
 		
 		fuelCapacity: {
-			cost: 25,
+			cost: 5,
 			multiplier: 1.20,
 			nPurchased: 0,
 		},
 		
-		smallAmmoCapacity: {
-			cost: 35,
-			multiplier: 1.35,
-			nPurchased: 0,
-		},
-		
-		bigAmmoCapacity: {
-			cost: 50,
-			multiplier: 1.5,
-			nPurchased: 0,
-		},
-		
 		smallAmmoDamage: {
-			cost: 50,
+			cost: 5,
 			multiplier: 1.4,
 			nPurchased: 0,
 		},
 		
 		bigAmmoDamage: {
-			cost: 100,
+			cost: 5,
 			multiplier: 1.85,
 			nPurchased: 0,
 		},
@@ -191,6 +179,24 @@ global.playerUpgrades = {
 		},
 		
 };
+
+
+/**
+===========================
+
+	Player Cheat States
+
+===========================
+**/
+global.invincibility = false;
+
+
+
+
+
+
+
+
 
 global.enemiesNearPlayer = 0
 global.shipSink = false

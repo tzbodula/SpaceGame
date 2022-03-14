@@ -295,7 +295,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tutorialButton","path":"sprites/spr_tutorialButton/spr_tutorialButton.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_tutorialButton",
     "tags": [],
     "resourceType": "GMSequence",

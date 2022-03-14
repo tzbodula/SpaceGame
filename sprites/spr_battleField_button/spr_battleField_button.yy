@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_battleField_button","path":"sprites/spr_battleField_button/spr_battleField_button.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_battleField_button",
     "tags": [],
     "resourceType": "GMSequence",

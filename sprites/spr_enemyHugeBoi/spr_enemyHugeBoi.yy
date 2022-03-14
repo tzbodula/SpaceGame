@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemyHugeBoi","path":"sprites/spr_enemyHugeBoi/spr_enemyHugeBoi.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_enemyHugeBoi",
     "tags": [],
     "resourceType": "GMSequence",

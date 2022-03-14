@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerCharacter_front","path":"sprites/spr_playerCharacter_front/spr_playerCharacter_front.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_playerCharacter_front",
     "tags": [],
     "resourceType": "GMSequence",

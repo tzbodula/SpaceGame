@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_playerCharacter_walk","path":"sprites/spr_playerCharacter_walk/spr_playerCharacter_walk.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_playerCharacter_walk",
     "tags": [],
     "resourceType": "GMSequence",

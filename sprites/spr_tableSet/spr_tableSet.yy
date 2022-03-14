@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tableSet","path":"sprites/spr_tableSet/spr_tableSet.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_tableSet",
     "tags": [],
     "resourceType": "GMSequence",

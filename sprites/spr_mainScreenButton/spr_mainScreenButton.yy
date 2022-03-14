@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_mainScreenButton","path":"sprites/spr_mainScreenButton/spr_mainScreenButton.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "spr_mainScreenButton",
     "tags": [],
     "resourceType": "GMSequence",
