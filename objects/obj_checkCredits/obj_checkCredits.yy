@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_floor",
-    "path": "sprites/spr_floor/spr_floor.yy",
+    "name": "spr_blackScreen",
+    "path": "sprites/spr_blackScreen/spr_blackScreen.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ship Interior",
-    "path": "folders/Objects/Ship Interior.yy",
+    "name": "Title Screen",
+    "path": "folders/Objects/Title Screen.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_floor",
+  "name": "obj_checkCredits",
   "tags": [],
   "resourceType": "GMObject",
 }

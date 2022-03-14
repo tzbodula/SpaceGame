@@ -5,9 +5,9 @@ if (index < textLength) {
    pause-- 
   
    if (pause <= 0) {
-       index++; // advance one character in the text
-       finalMessageDisplayed = string_copy(finalMessage, 1, index) // starting from the 1st char in "text" we the amount of "index" characters to the displayed_text
-       pause = textSpeed // resetting the cooldown for the next character
+       index++
+       finalMessageDisplayed = string_copy(finalMessage, 1, index) 
+       pause = textSpeed 
    }
 }
 

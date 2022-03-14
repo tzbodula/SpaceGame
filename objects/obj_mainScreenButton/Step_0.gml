@@ -5,9 +5,11 @@ if (mouse_check_button_pressed(mb_left))
 	xx = mouse_x
 	yy = mouse_y
 																			
-	if (position_meeting(xx, yy, obj_mainScreenButton)) {			
-		audio_stop_all()
-		scr_resetGame()
+	if (position_meeting(xx, yy, obj_mainScreenButton)) {	
+		if global.credits = false {
+			audio_stop_all()
+			scr_resetGame()
+		}
 		room_goto(rm_titleScreen)
 	
 	}
