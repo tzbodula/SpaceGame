@@ -124,6 +124,7 @@
     {"id":{"name":"tl_lose","path":"timelines/tl_lose/tl_lose.yy",},"order":5,},
     {"id":{"name":"spr_flowerPot","path":"sprites/spr_flowerPot/spr_flowerPot.yy",},"order":7,},
     {"id":{"name":"spr_upgradeButton","path":"sprites/spr_upgradeButton/spr_upgradeButton.yy",},"order":0,},
+    {"id":{"name":"spr_radar","path":"sprites/spr_radar/spr_radar.yy",},"order":42,},
     {"id":{"name":"spr_blackScreen","path":"sprites/spr_blackScreen/spr_blackScreen.yy",},"order":2,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":6,},
     {"id":{"name":"snd_inBetweenWaves","path":"sounds/snd_inBetweenWaves/snd_inBetweenWaves.yy",},"order":7,},

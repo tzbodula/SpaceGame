@@ -14,6 +14,8 @@ if !global.insideShip and instance_exists(obj_playerShip) {
 	    draw_set_colour(c_red);
     }
 
+	draw_sprite_ext(spr_radar, -1, 1200, 15, 0.4, 0.4, 0, c_white, 1)
+
     draw_sprite_ext(spr_fuelBar, -1, 400, 700, 0.5, 0.5, 0, c_white, 1)
 
     draw_sprite_ext(spr_powerBar, -1, 700, 700, 0.5, 0.5, 0, c_white, 1)
@@ -69,11 +71,15 @@ if !global.insideShip and instance_exists(obj_playerShip) {
     draw_text(100, 650, "Energy Consumption Score: " + string(floor(global.energyConsumptionScore)));
 	
 	if global.isWaveOver == true and !global.insideShip {
-		if (global.wave != global.totalWaves) 
-			draw_text(room_width/2, room_height/2, "Press X to proceed to next wave")
-		else if (global.wave == global.totalWaves) 
+		if (global.wave != global.totalWaves) {
+			draw_set_colour(c_white);
+			draw_text(1000, 650, "Press X to proceed to next wave");
+		}
+		else if (global.wave == global.totalWaves) {
 			// Different text if player is about to finish game
-			draw_text(room_width/2, room_height/2, "Press X to continue...")
+			draw_set_colour(c_white);
+			draw_text(1000, 650, "Press X to continue...");
+		}
 	}
 		
 		
