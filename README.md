@@ -15,12 +15,16 @@ These conventions exist across the project:
 - Sprites and their corresponding objects have the same name following their respective "_" s. Ex) `spr_playerShip and obj_playerShip`
 
 ##  Rooms
-The game has 4 rooms:
-- `rm_outerSpace` is  pixels. All other rooms are 1366x768 pixels which scales to a 1920x1080 play area.
-- `rm_titleScreen`: Title screen where player can choose between starting the tutorial or game.
-- `rm_introScene`: Text scene which leads to a tutorial where the player can learn about the context and controls of the game.
+The game has 8 rooms:
+
+- `rm_titleScreen`: Title screen where player can choose between the tutorial, game, or credits.
+- `rm_introScene`: Text scene preluding the tutorial in which the player can learn about the context and controls of the game.
 - `rm_shipInterior`: Inside of player's ship, where they can repair, upgrade, and restart their ship.
-- `rm_outerSpace`: Combat area where player will interact with enemies.
+- `rm_shipInterior_DuringWave`: Inside of player's ship with specifications that increase user interactability .
+- `rm_outerSpace`: Combat area where player will interact with enemies and have their resources displayed.
+- `rm_shop`: Interactable interface for the purchasing of item refills and upgrades.
+- `rm_shop_Tutorial`: Non-interactable interface for viewing the shop. This is specifically utilized during the tutorial.
+- `rm_gameOver`: Player is met with a win/lose screen. Depending on their win status, players are shown different sequences. 
  
 ##  Sprites
 
@@ -29,7 +33,6 @@ The game has 4 rooms:
 - Enemy ship 1 (`spr_enemy1`) is 64x64 pixels
 - Enemy ship 2 (`spr_enemy2`) is 32x32 pixels
 - Enemy ship 3 (`spr_enemy3`) is 64x64 pixels
-- Boss enemy (`spr_enemyHugeBoi`) is 512x512px
 - All sprites have their origin placed at: **Middle Center**
 
 ##  Enemies
@@ -38,3 +41,10 @@ The game has 3 main enemy types:
 - `_enemy1` : <"info about enemy1">
 - `_enemy2` : <"info about enemy2">
 - `_enemy3` : <"info about enemy3">
+
+##  Game Design Document
+
+Changes between the Game Design Document and game implementation are as follows:
+- 3 rounds / 3 waves + boss battle --> 1 round / 3 waves
+- Final score configuration (see more details below)
+- No score board implementation
