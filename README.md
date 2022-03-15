@@ -48,3 +48,7 @@ Changes between the Game Design Document and game implementation are as follows:
 - 3 rounds / 3 waves + boss battle --> 1 round / 3 waves
 - Final score configuration (see more details below)
 - No score board implementation
+
+##  Player Performance
+
+After successfully completing the game, players are given a sustainability score that takes several different variables into account. These variables include the number of space garbage items collected, the amount of total cash earned by the player, and the amount of energy used by the player. High garbage and cash collection and low energy use will lead to the highest score. Players are scored on an A-F scale. This is to promote interest in repeated game play.
