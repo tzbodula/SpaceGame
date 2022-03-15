@@ -4,7 +4,7 @@ global.insideShip = true;
 room_persistent = true;
 
 // Check if obj_controller exists yet
-if(!instance_exists(obj_controller))
+if(!instance_exists(obj_controller) and !global.tutorial)
 {
 	// Create obj_controller
 	instance_create_layer(0,0,"instances",obj_controller);

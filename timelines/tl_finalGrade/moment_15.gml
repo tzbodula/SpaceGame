@@ -1,10 +1,13 @@
 finalScore = ""
 global.color = ""
 
-//totalPoints = round((global.spaceGarbageCollected * global.totalCash) / (global.energyConsumptionScore / 2))
+totalPoints = round((global.spaceGarbageCollected * global.totalCash) / (global.energyConsumptionScore / 4))
 
-// TESTING
-totalPoints = 4
+// This condition should never trigger, but just in case
+if totalPoints < 0 then totalPoints = 0
+
+if totalPoints > 4 then totalPoints = 4
+
 
 switch (totalPoints) {
 	
