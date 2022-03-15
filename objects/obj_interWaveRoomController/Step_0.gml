@@ -23,5 +23,4 @@ if counter % 60 == 0 {
 if global.healthPoints <= 0 {
 	global.gameWon = false
 	room_goto(rm_gameOver)
-	
 }

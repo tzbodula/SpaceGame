@@ -5,7 +5,7 @@ audio_play_sound(snd_garbageCollection, 1, false);
 
 if !global.tutorial {
 	global.energyConsumptionScore -= 10;
-	global.cash += .5;
+	global.cash += 3;
     // add 200 points to the fuel
     var value = global.fuel + 200
     // if the fuel capcaity is exceeded then bring it back to normal levels
@@ -25,5 +25,5 @@ if !global.tutorial {
 	global.fuel += 20000
 	global.energy += 20000
 }
-instance_destroy()
 global.spaceGarbageCollected++
+instance_destroy()
