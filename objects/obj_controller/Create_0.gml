@@ -45,7 +45,8 @@ global.smallAmmoDamage = 5;			//	Damage per small bullet (upgradable)
 global.bigAmmoDamage = global.smallAmmoDamage * 2;		//	RIP comment formatting
 global.maxHsp = 10;					//	Max hspeed (upgradable; 3 tiers)
 global.maxVsp = 8;					//	Max vspeed (upgradable; 3 tiers)
-global.cash = 0
+global.cash = 0;
+global.shotsHit = 0;
 
 // Resource capacity values (These will be upgradable)
 global.healthCapacity = global.healthPoints;
