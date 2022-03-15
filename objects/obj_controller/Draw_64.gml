@@ -3,7 +3,7 @@
  This section is dedicated towards drawing the HUD bars 
  and anchoring towards the bottom of the screen
 */
-if !global.insideShip and instance_exists(obj_playerShip) or global.tutorial{
+if !global.insideShip and instance_exists(obj_playerShip) or global.tutorial {
     draw_sprite_ext(spr_healthBar, -1, 100, 700, 0.5, 0.5, 0, c_white, 1)
 
     if(global.shields > (global.shieldCapacity / 2))
@@ -51,7 +51,7 @@ if !global.insideShip and instance_exists(obj_playerShip) or global.tutorial{
     draw_text_transformed(155, 5, string(global.wave) , 2.5, 2.5, 0);
 
     // Check selected ammo type
-    if(obj_playerShip.ammoType == AmmoTypes.SMALL)
+    if(instance_exists(obj_playerShip) and obj_playerShip.ammoType == AmmoTypes.SMALL)
     {
 	    // Highlight selected ammo type
 	    draw_set_colour(c_white);
@@ -83,7 +83,7 @@ if !global.insideShip and instance_exists(obj_playerShip) or global.tutorial{
 	}
 		
 		
-	}
+}
 
 
 
