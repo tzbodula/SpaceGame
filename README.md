@@ -3,6 +3,8 @@ Project for ITCS-4230/5230: Introduction to Game Design & Development
 
 When the galaxy is suddenly attacked by intergalactic mutated space garbage, society plunges into chaos in search of a solution or face total annihilation. Word soon began to spread among the planets of a legend once thought only to be a fairytale. The legend of the Galaxy Defender.
 
+Development Team: Can Ngo, Catlin Petro, Kyle Ward, and Thomas Zbodula of Exodus Studios.
+
 ##  Project conventions
 These conventions exist across the project:
 
