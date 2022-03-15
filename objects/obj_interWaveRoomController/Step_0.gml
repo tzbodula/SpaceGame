@@ -21,6 +21,9 @@ if counter % 60 == 0 {
 
 // if healthPoints <= 0 then restart the game
 if global.healthPoints <= 0 {
-	global.gameWon = false
-	room_goto(rm_gameOver)
+	global.shipSink = true
+	global.insideShip = false
+	global.fuel += 100
+	global.energy += 100
+	room_goto(rm_outerSpace)
 }

@@ -1,6 +1,6 @@
 function scr_resetGame() {
 	room_persistent = false
-	
+
 	global.wave = 1						// Current wave #
     global.totalWaves = 3;				// Total number of different waves
 

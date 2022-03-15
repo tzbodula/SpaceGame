@@ -2,6 +2,7 @@
 function waveStatus() {
 	
 	if global.playerDead == false and global.gameStart == true {
+		if instance_exists(obj_enemy1Spawner) and instance_exists(obj_enemy2Spawner) and instance_exists(obj_enemy3Spawner) {
 		// Wave has ended when all enemies are spawned and eliminated
 		if !instance_exists(obj_enemy1) and obj_enemy1Spawner.spawnsRemaining == 0 and 
 		   !instance_exists(obj_enemy2) and obj_enemy2Spawner.spawnsRemaining == 0 and
@@ -9,6 +10,8 @@ function waveStatus() {
 		   global.isWaveOver == false {
 		  
 			  global.isWaveOver = true;  
+	   }
+	   
 	   }
 	}
 	

@@ -8,4 +8,3 @@ countDown = true
 persistent = true;
 seconds = 25
 alarm[0] = seconds*room_speed + 120;
-

@@ -1,10 +1,10 @@
 // Each step, check if the wave has concluded 
-if !global.insideShip{
+if !global.insideShip and !global.shipSink{
     waveStatus(); 
 }
 
 
-if (global.isWaveOver == true and !global.insideShip) {
+if (global.isWaveOver == true and !global.insideShip and !global.shipSink) {
 	//make the room not persistent in order to reset variables back to 
 	//normal.
 	if keyboard_check_pressed(ord("X")) {
@@ -15,7 +15,7 @@ if (global.isWaveOver == true and !global.insideShip) {
 	}
 }
 
-if ((global.fuel <= 0 or global.energy <= 0) and !global.insideShip) {
+if ((global.fuel <= 0 or global.energy <= 0) and !global.insideShip and !global.shipSink) {
 	// if we run out of fuel or energy force the player to re-fill
 	//by switching rooms.
 	global.insideShip = true
@@ -32,5 +32,5 @@ if global.shipSink and !global.insideShip{
     //stop the music in order to avoid ear drum destruction
 	global.shipSink = false
     audio_stop_all()
-    room_restart()
+	room_goto(rm_gameOver)
 }
