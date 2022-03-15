@@ -38,17 +38,17 @@ The game has 8 rooms:
 ##  Enemies
 
 The game has 3 main enemy types:
-- `_enemy1` : <"info about enemy1">
-- `_enemy2` : <"info about enemy2">
-- `_enemy3` : <"info about enemy3">
+- `_enemy1`: A kamikaze enemy that barrels towards the enemy. The player will sustain damage if they make contact with this enemy. Low health.
+- `_enemy2`: A sentry enemy that fires bullets at the player, often at a distance. Medium health.
+- `_enemy3`: A tank enemy that fires bullets at the player. High health.
 
 ##  Game Design Document
 
 Changes between the Game Design Document and game implementation are as follows:
 - 3 rounds / 3 waves + boss battle --> 1 round / 3 waves
-- Final score configuration (see more details below)
+- Final score configuration based on player performance (see more details below)
 - No score board implementation
 
 ##  Player Performance
 
-After successfully completing the game, players are given a sustainability score that takes several different variables into account. These variables include the number of space garbage items collected, the amount of total cash earned by the player, and the amount of energy used by the player. High garbage and cash collection and low energy use will lead to the highest score. Players are scored on an A-F scale. This is to promote interest in repeated game play.
+After successfully completing the game, players are given a sustainability score that takes several different variables into account. These variables include the number of space garbage items collected, the amount of total cash earned by the player, and the amount of energy used by the player. High garbage and cash collection and low energy use will lead to the highest score, promoting sustainability. Players are scored on an A-F scale. This is to promote interest in repeated game play.
