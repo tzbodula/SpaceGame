@@ -3,7 +3,7 @@
  This section is dedicated towards drawing the HUD bars 
  and anchoring towards the bottom of the screen
 */
-if !global.insideShip and instance_exists(obj_playerShip) {
+if !global.insideShip and instance_exists(obj_playerShip) or global.tutorial{
     draw_sprite_ext(spr_healthBar, -1, 100, 700, 0.5, 0.5, 0, c_white, 1)
 
     if(global.shields > (global.shieldCapacity / 2))

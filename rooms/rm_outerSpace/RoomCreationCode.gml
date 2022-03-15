@@ -17,8 +17,10 @@ else if global.gameEnd {
 	instance_activate_object(obj_endingController)
 	instance_activate_object(obj_mainScreenButton)
 	instance_activate_object(obj_playerStats)
+	instance_activate_object(obj_finalGrade)
 	audio_stop_all()
 	audio_play_sound(snd_typing, 1, true)
+	audio_play_sound(snd_musicBox, 1, false)
 	// play musicbox
 	
 }
@@ -37,7 +39,6 @@ else {
 	instance_deactivate_object(obj_mainScreenButton)
 	instance_deactivate_object(obj_playerStats)
 	instance_deactivate_object(obj_creditsController)
-	// Set intensity level based on wave #
-	//setIntensity()
+	instance_deactivate_object(obj_finalGrade)
 }
 

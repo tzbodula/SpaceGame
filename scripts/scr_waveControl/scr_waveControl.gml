@@ -15,9 +15,7 @@ function waveStatus() {
 }
 
 function endWave() {
-	// Increase wave counter
-	//global.waveStage += 1;
-	
+
 	// If there are additional waves remaining...
 	if (global.wave < global.totalWaves) {
 		audio_play_sound(snd_inBetweenWaves, 1, true)

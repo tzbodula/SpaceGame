@@ -8,4 +8,6 @@ with(obj_tutorialController2) {
 	instance_deactivate_object(obj_mainScreenButton)
 	instance_deactivate_object(obj_playerStats)
 	instance_deactivate_object(obj_creditsController)
+	instance_deactivate_object(obj_finalGrade)
+	//instance_activate_object(obj_controller)
 }

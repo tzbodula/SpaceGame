@@ -1,4 +1,4 @@
 with(obj_playerStats) {
-	text += "\nTotal small bullets fired: " + string(global.totalSmallBulletsFired)
+	text += "\nTotal cash earned: " + string(global.totalCash)
 	audio_play_sound(snd_playershoot, 1, false)
 }

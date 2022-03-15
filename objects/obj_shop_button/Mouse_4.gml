@@ -1,4 +1,7 @@
 /// @description Button clicked
+if global.wave == 0
+	room_goto(rm_shop_Tutorial)
 
 // Navigate to the shop page
-room_goto(rm_shop);
+else
+	room_goto(rm_shop);

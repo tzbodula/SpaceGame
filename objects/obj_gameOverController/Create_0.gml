@@ -17,6 +17,7 @@ else if global.gameWon == false {
 	finalMessage = "YOU LOSE.\nHumanity has perished."
 	layer_background_create("Instances", spr_redTerminal)
 	audio_play_sound(snd_typing, 1, true)
+	audio_play_sound(snd_eeriemusic, 1, true)
 
 }
 
