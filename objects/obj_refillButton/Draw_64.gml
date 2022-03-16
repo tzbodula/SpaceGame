@@ -124,8 +124,8 @@ switch(self.name)
 		draw_text_transformed(curr_startX*2.35, (curr_startY+55), "Upgrade Health/Shield Cap", 1, 1, 0);
 
 		// Compute and draw current and next percent upgrade
-		var curr_pct = (abs(global.playerUpgrades.fuelCapacity.multiplier - 1)*100.0);
-		var next_pct = curr_pct * (global.playerUpgrades.fuelCapacity.nPurchased+1)+1;
+		var curr_pct = (abs(global.playerUpgrades.healthCapacity.multiplier - 1)*100.0);
+		var next_pct = curr_pct * (global.playerUpgrades.healthCapacity.nPurchased+1)+1;
 		draw_set_color(c_green);
 		draw_text_transformed((curr_startX+65)*2.32, (curr_startY-70), "+" + string(curr_pct) + "%", 0.75, 0.75, 0);
 		draw_text_transformed((curr_startX+30)*2.46, (curr_startY-50), "+" + string(next_pct) + "%", 0.75, 0.75, 0);
@@ -133,7 +133,7 @@ switch(self.name)
 		draw_set_color(c_white);
 
 		// Compute cost of upgrade
-		var cost = global.playerUpgrades.fuelCapacity.cost;
+		var cost = global.playerUpgrades.healthCapacity.cost + global.playerUpgrades.shieldCapacity.cost;
 	
 		// Draw cost
 		draw_text(curr_startX*2.55, curr_startY, "Cost: $" + string(cost));
